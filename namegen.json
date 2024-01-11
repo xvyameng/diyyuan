@@ -41,6 +41,15 @@
                          "ext": "./js/mgtv.js"
 		},
 		{
+			"key":"360",
+			"name":"360",
+			"type":3,
+			"api":"csp_SP360",
+			"filterable":1,
+			"quickSearch":1,
+			"searchable":1
+		},
+		{
 			 "key": "csp_appys_影探",
 			"name": "影探",
 			"type": 3,
