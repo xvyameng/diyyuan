@@ -78,7 +78,8 @@
                         "api": "csp_Auete",
                         "searchable": 1,
                         "quickSearch": 1,
-                        "filterable": 1
+                        "filterable": 1,
+			"jar": "./jar/ts.jar"
 		},
 		{
                         "key": "七七",
@@ -87,7 +88,8 @@
                         "api": "csp_Kunyu77",
                         "searchable": 1,
                         "quickSearch": 1,
-                        "filterable": 1
+                        "filterable": 1,
+			"jar": "./jar/sd.jar"
 		},
 		{
                         "key": "机器人",
@@ -96,7 +98,8 @@
                         "api": "csp_Ikanbot",
                         "searchable": 1,
                         "quickSearch": 1,
-                        "changeable": 1
+                        "changeable": 1,
+			"jar": "./jar/sd.jar"
 		},
 		{   
                         "key":"Czsapp",
