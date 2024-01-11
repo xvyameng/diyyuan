@@ -1,5 +1,5 @@
 {
-	"spider":"./namegen.jar","./jar/gy.jar",
+	"spider":"./namegen.jar","spider":"./gy.jar","spider":"./sd.jar","spider":"./ts.jar",
 	"sites":[
 		
 		{
