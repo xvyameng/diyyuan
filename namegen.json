@@ -55,6 +55,16 @@
 			"changeable": 1 
 		},
 		{
+			"key": "快看",
+			"name": "快看",
+			"type": 3,
+			"api": "csp_Kuaikan",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"filterable": 1
+		},
+		{
 			"key":"新版6V",
 			"name":"新版6V",
 			"type":3,
@@ -64,18 +74,6 @@
 			"changeable":1, 
 			"timeout":60
 		},
-		{
-			"key":"csp_Sp360",
-			"name":"360",
-			"type":3,
-			"api":"csp_Sp360",
-			"searchable":1,
-			"quickSearch":1,
-			"filterable":1,
-			"changeable":1,
-			"ext":{"danmu":true},
-			"timeout":30
-		}, 
 		{
 			"key":"MP4US",
 			"name":"MP4电影",
@@ -87,28 +85,12 @@
 			"timeout":60
 		},
 		{
-			"key": "JustLive",
-			"name": "JustLive",
-			"type": 3,
-			"api": "csp_JustLive",
-			"searchable": 1,
-			"changeable": 0
-		},
-		{
 			"key":"酷吧",
 			"name":"酷吧",
 			"type":3,
 			"api":"./lib/drpy2.min.js",
 			"ext":"./js/kuba.js", 
 			"quickSearch":1,
-			"changeable":1, 
-			"timeout":60
-		},
-		{
-			"key":"BLSGod",
-			"name":"BLSGod",
-			"type":3,
-			"api":"csp_BLSGod",
 			"changeable":1, 
 			"timeout":60
 		},
@@ -129,18 +111,8 @@
 			"timeout":60
 		},
 		{
-			"key": "快看",
-			"name": "快看",
-			"type": 3,
-			"api": "csp_Kuaikan",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"filterable": 1
-		},
-		{
-			"key": "暴風",
-			"name": "暴風",
+			"key": "暴风",
+			"name": "暴风",
 			"type": 1,
 			"api": "https://bfzyapi.com/api.php/provide/vod",
 			"searchable": 1,
@@ -151,14 +123,6 @@
 			"name": "索尼 ",
 			"type": 1,
 			"api": "https://suoniapi.com/api.php/provide/vod",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "快帆",
-			"name": "快帆",
-			"type": 1,
-			"api": "https://api.kuaifan.tv/api.php/provide/vod",
 			"searchable": 1,
 			"changeable": 1
 		},
