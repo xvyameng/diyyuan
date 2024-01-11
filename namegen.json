@@ -17,6 +17,7 @@
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
                          "ext": "./js/爱奇艺.js"
+			 "jar": "./jar/gy.js"
 		},
 		{
                          "key": "优酷",
@@ -24,6 +25,7 @@
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
                          "ext": "./js/优酷.js"
+			 "jar": "./jar/gy.js"
 		},
 		{
                          "key": "腾讯",
@@ -31,6 +33,7 @@
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
                          "ext": "./js/腾讯.js"
+			 "jar": "./jar/gy.js"
 		},
 		{
                          "key": "mgtv",
@@ -38,6 +41,7 @@
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
                          "ext": "./js/mgtv.js"
+			 "jar": "./jar/gy.js"
 		},
 		{
 			 "key": "csp_appys_影探",
