@@ -17,7 +17,7 @@
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
                          "ext": "./js/爱奇艺.js",
-			 "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/gy.jar"
+			 "jar": "https://jihulab.com/namegen/jar/-/raw/main/gy.jar"
 		},
 		{
                          "key": "优酷",
@@ -25,7 +25,7 @@
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
                          "ext": "./js/优酷.js",
-			 "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/gy.jar"
+			 "jar": "https://jihulab.com/namegen/jar/-/raw/main/gy.jar"
 		},
 		{
                          "key": "腾讯",
@@ -33,7 +33,7 @@
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
                          "ext": "./js/腾讯.js",
-			 "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/gy.jar"
+			 "jar": "https://jihulab.com/namegen/jar/-/raw/main/gy.jar"
 		},
 		{
                          "key": "mgtv",
@@ -41,7 +41,7 @@
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
                          "ext": "./js/mgtv.js",
-			 "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/gy.jar"
+			 "jar": "https://jihulab.com/namegen/jar/-/raw/main/gy.jar"
 		},
 		{
 			 "key": "csp_appys_影探",
