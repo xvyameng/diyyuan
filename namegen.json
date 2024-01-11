@@ -11,14 +11,6 @@
 			"ext": "./lib/douban.json"
 		},
 		{
-			"key": "996",
-			"name": "996",
-			"type": 3,
-			"api": "csp_Cs1369",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
 			"key": "NanGua",
 			"name": "南瓜",
 			"type": 3,
@@ -34,16 +26,6 @@
 			"playerType": 1,
 			"ext": "http://op.ysdqjs.cn"
 		},
-		{
-			"key": "荐片",
-			"name": "荐片",
-			"type": 3,
-			"api": "csp_Jianpian",
-			"searchable": 1,
-			"changeable": 1,
-			"ext": "./lib/jianpian.json",
-			"timeout":60
-		},
 		{ 
 			"key": "YQKan",
 			"name": "一起看",
@@ -55,6 +37,62 @@
 			"changeable": 1 
 		},
 		{
+			"key": "机器人",
+			"name": "机器人",
+			"type": 3,
+			"api": "csp_Ikanbot",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"jar": "./jar/s.jar"
+                },
+		{
+			"key": "七七",
+			"name": "七七影视",
+			"type": 3,
+			"api": "csp_Kunyu77",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"jar": "./jar/s.jar"
+                },
+		{
+			"key": "csp_appys_影探",
+			"name": "影探",
+			"type": 3,
+			"api": "csp_AppYsV2",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "http://wvvipcms.lyyytv.cn:80/api.php/app/"
+               },
+               {
+			"key": "奇优",
+			"name": "奇优",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/qiyou.js"
+               },
+               {
+			"key": "爱看影视",
+			"name": "爱看影视",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/aikkan.js"
+                 },
+		 {
+			"key": "Aue",
+			"name": "Aue影视",
+			"type": 3,
+			"api": "csp_Auete",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"jar": "./jar/f.jar"
+                },
+		{
 			"key": "快看",
 			"name": "快看",
 			"type": 3,
@@ -63,6 +101,44 @@
 			"quickSearch": 1,
 			"changeable": 0,
 			"filterable": 1
+		},
+		{ 
+			"key": "Mayiys", 
+			"name": "蚂蚁",
+			"type": 3, 
+			"api": "csp_Mayiys",
+			"searchable": 1, 
+			"quickSearch": 1, 
+			"filterable": 1, 
+			"changeable": 1
+		 },
+		 {   
+			"key":"Czsapp",
+			"name":"厂长影视",
+			"type":3,
+			 "api":"csp_Czsapp",
+			"playerType":2,
+			"searchable":1,
+			"changeable":1,
+			"ext": "https://www.czzy66.com/"
+                 },
+		 {
+			"key": "996",
+			"name": "996",
+			"type": 3,
+			"api": "csp_Cs1369",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "荐片",
+			"name": "荐片",
+			"type": 3,
+			"api": "csp_Jianpian",
+			"searchable": 1,
+			"changeable": 1,
+			"ext": "./lib/jianpian.json",
+			"timeout":60
 		},
 		{
 			"key":"新版6V",
