@@ -27,14 +27,6 @@
 			"changeable": 1
 		},
 		{
-			"key": "河马",
-			"name": "河马",
-			"type": 3,
-			"api": "csp_Hmys",
-			"playerType": 1,
-			"ext": "https://m.jmzp.net.cn"
-		},
-		{
 			"key": "天天",
 			"name": "天天",
 			"type": 3,
