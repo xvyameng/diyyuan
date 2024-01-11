@@ -133,14 +133,6 @@
 			"changeable": 1
 		},
 		{
-			"key":"低端", 
-			"name":"低端", 
-			"type":3, 
-			"api":"./lib/drpy2.min.js",
-			"ext":"./js/ddys.js", 
-			"changeable": 1 
-		},
-		{
 			"key": "天天",
 			"name": "天天",
 			"type": 3,
