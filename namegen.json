@@ -36,7 +36,7 @@
                         "type": 3,
                         "playerType": "2",
                         "api": "./lib/drpy2.min.js",
-                        "ext": "./js/aikan.js",
+                        "ext": "./js/aikkan.js",
                         "changeable": 1 
 		},
 		{
