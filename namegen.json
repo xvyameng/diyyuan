@@ -1,6 +1,6 @@
 {
 	"spider":"./namegen.jar",
-	"disabled_spider":"./jar/gy.jar"
+	"spider":"./jar/gy.jar"
 	"sites":[
 		
 		{
