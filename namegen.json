@@ -36,16 +36,6 @@
 			"changeable": 1
 		},
 		{
-			"key": "新6V",
-			"name": "新6V",
-			"type": 3,
-			"api": "csp_Xb6v",
-			"searchable": 1,
-			"changeable": 1,
-			"timeout": 60,
-			"ext": "https://www.66ss.org"
-		},
-		{
 			"key": "天天",
 			"name": "天天",
 			"type": 3,
