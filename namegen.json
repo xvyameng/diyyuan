@@ -12,6 +12,34 @@
 			"ext": "./lib/douban.json"
 		},
 		{
+			"key": "NanGua",
+			"name": "南瓜",
+			"type": 3,
+			"api": "csp_NanGua",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{ 
+			"key": "一起看", 
+			"name": "一起看", 
+			"type": 3, 
+			"api": "csp_YQKan", 
+			"searchable": 1, 
+			"quickSearch": 1, 
+			"filterable": 1, 
+			"changeable": 1 
+		},
+		{
+			"key": "快看",
+			"name": "快看",
+			"type": 3,
+			"api": "csp_Kuaikan",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"filterable": 1
+		},
+		{
 			"key": "996",
 			"name": "996",
 			"type": 3,
@@ -20,20 +48,12 @@
 			"changeable": 1
 		},
 		{
-			"key": "短剧",
-			"name": "短剧",
-			"type": 3,
-			"api": "csp_Duanju",
-			"searchable": 0,
-			"changeable": 1
-		},
-		{
-			"key": "NanGua",
-			"name": "南瓜",
-			"type": 3,
-			"api": "csp_NanGua",
-			"searchable": 1,
-			"changeable": 1
+			"key":"低端", 
+			"name":"低端", 
+			"type":3, 
+			"api":"./lib/drpy2.min.js",
+			"ext":"./js/ddys.js", 
+			"changeable": 1 
 		},
 		{
 			"key": "天天",
@@ -52,32 +72,6 @@
 			"changeable": 1,
 			"ext": "./lib/jianpian.json",
 			"timeout":60
-		},
-		{ 
-			"key": "一起看", 
-			"name": "一起看", 
-			"type": 3, 
-			"api": "csp_YQKan", 
-			"searchable": 1, 
-			"quickSearch": 1, 
-			"filterable": 1, 
-			"changeable": 1 
-		},
-		{
-			"key": "索尼",
-			"name": "索尼",
-			"type": 1,
-			"api": "https://suoniapi.com/api.php/provide/vod",
-			"searchable": 1,
-			"quickSearch": 1
-		},
-		{
-			"key":"低端", 
-			"name":"低端", 
-			"type":3, 
-			"api":"./lib/drpy2.min.js",
-			"ext":"./js/ddys.js", 
-			"changeable": 1 
 		},
 		{
 			"key":"新版6V",
@@ -125,16 +119,6 @@
 			"api":"csp_SeedHub",
 			"changeable":1, 
 			"timeout":60
-		},
-		{
-			"key": "快看",
-			"name": "快看",
-			"type": 3,
-			"api": "csp_Kuaikan",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"filterable": 1
 		},
 		{
 			"key": "暴风",
