@@ -48,7 +48,7 @@
                 },
 		{
 			"key": "七七",
-			"name": "七七影视",
+			"name": "七七",
 			"type": 3,
 			"api": "csp_Kunyu77",
 			"searchable": 1,
@@ -57,7 +57,7 @@
 			"jar": "./jar/s.jar"
                 },
 		{
-			"key": "csp_appys_影探",
+			"key": "影探",
 			"name": "影探",
 			"type": 3,
 			"api": "csp_AppYsV2",
@@ -75,8 +75,8 @@
 			"ext": "./js/qiyou.js"
                },
                {
-			"key": "爱看影视",
-			"name": "爱看影视",
+			"key": "爱看",
+			"name": "爱看",
 			"type": 3,
 			"playerType": "2",
 			"api": "./lib/drpy2.min.js",
@@ -84,7 +84,7 @@
                  },
 		 {
 			"key": "Aue",
-			"name": "Aue影视",
+			"name": "Aue",
 			"type": 3,
 			"api": "csp_Auete",
 			"searchable": 1,
