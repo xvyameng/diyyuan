@@ -1,6 +1,5 @@
 {
-	"spider":"./namegen.jar",
-	"spider":"./gy.jar",
+	"spider":"https://jihulab.com/namegen/jar/-/raw/main/namegen.jar,
 	"sites":[
 		
 		{
@@ -17,28 +16,32 @@
                          "name": "爱奇艺",
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
-                         "ext": "./js/爱奇艺.js"
+                         "ext": "./js/爱奇艺.js",
+			"jar": "https://jihulab.com/namegen/jar/-/raw/main/gy.jar"
 		},
 		{
                          "key": "优酷",
                          "name": "优酷",
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
-                         "ext": "./js/优酷.js"
+                         "ext": "./js/优酷.js",
+			"jar": "https://jihulab.com/namegen/jar/-/raw/main/gy.jar"
 		},
 		{
                          "key": "腾讯",
                          "name": "腾讯",
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
-                         "ext": "./js/腾讯.js"
+                         "ext": "./js/腾讯.js",
+			"jar": "https://jihulab.com/namegen/jar/-/raw/main/gy.jar"
 		},
 		{
                          "key": "mgtv",
                          "name": "mgtv",
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
-                         "ext": "./js/mgtv.js"
+                         "ext": "./js/mgtv.js",
+			"jar": "https://jihulab.com/namegen/jar/-/raw/main/gy.jar"
 		},
 		{
 			"key":"360",
