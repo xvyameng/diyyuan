@@ -16,7 +16,7 @@
                          "name": "爱奇艺",
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
-                         "ext": "./js/爱奇艺.js"
+                         "ext": "./js/爱奇艺.js",
 			 "jar": "./jar/gy.js"
 		},
 		{
@@ -24,7 +24,7 @@
                          "name": "优酷",
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
-                         "ext": "./js/优酷.js"
+                         "ext": "./js/优酷.js",
 			 "jar": "./jar/gy.js"
 		},
 		{
@@ -32,7 +32,7 @@
                          "name": "腾讯",
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
-                         "ext": "./js/腾讯.js"
+                         "ext": "./js/腾讯.js",
 			 "jar": "./jar/gy.js"
 		},
 		{
@@ -40,7 +40,7 @@
                          "name": "mgtv",
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
-                         "ext": "./js/mgtv.js"
+                         "ext": "./js/mgtv.js",
 			 "jar": "./jar/gy.js"
 		},
 		{
