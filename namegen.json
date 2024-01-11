@@ -1,5 +1,6 @@
 {
 	"spider":"./namegen.jar",
+	"disabled_spider":"./jar/gy.jar"
 	"sites":[
 		
 		{
@@ -16,32 +17,28 @@
                          "name": "爱奇艺",
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
-                         "ext": "./js/爱奇艺.js",
-			 "jar": "./jar/gy.jar"
+                         "ext": "./js/爱奇艺.js"
 		},
 		{
                          "key": "优酷",
                          "name": "优酷",
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
-                         "ext": "./js/优酷.js",
-			 "jar": "./jar/gy.jar"
+                         "ext": "./js/优酷.js"
 		},
 		{
                          "key": "腾讯",
                          "name": "腾讯",
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
-                         "ext": "./js/腾讯.js",
-			 "jar": "./jar/gy.jar"
+                         "ext": "./js/腾讯.js"
 		},
 		{
                          "key": "mgtv",
                          "name": "mgtv",
                          "type": 3,
                          "api": "./lib/drpy2.min.js",
-                         "ext": "./js/mgtv.js",
-			 "jar": "./jar/gy.jar"
+                         "ext": "./js/mgtv.js"
 		},
 		{
 			 "key": "csp_appys_影探",
@@ -78,8 +75,7 @@
                         "api": "csp_Auete",
                         "searchable": 1,
                         "quickSearch": 1,
-                        "filterable": 1,
-			"jar": "./jar/ts.jar"
+                        "filterable": 1
 		},
 		{
                         "key": "七七",
@@ -88,8 +84,7 @@
                         "api": "csp_Kunyu77",
                         "searchable": 1,
                         "quickSearch": 1,
-                        "filterable": 1,
-			"jar": "./jar/sd.jar"
+                        "filterable": 1
 		},
 		{
                         "key": "机器人",
@@ -98,8 +93,7 @@
                         "api": "csp_Ikanbot",
                         "searchable": 1,
                         "quickSearch": 1,
-                        "changeable": 1,
-			"jar": "./jar/sd.jar"
+                        "changeable": 1
 		},
 		{   
                         "key":"Czsapp",
