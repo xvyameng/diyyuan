@@ -147,25 +147,7 @@ var rule={
         "content":".abstract&&Text",
         "tabs":`js:
 TABS=[];
-let d = pdfa(html, 'div.wp-playlist~a');
-let tabsq=[];
-d.forEach(function(it){
-	let burl = pd(it, 'a&&href', HOST);
-	if (burl.includes("pan.quark.cn")){
-		tabsq.push("夸克網盤");
-	}else if (burl.includes("www.aliyundrive.com") || burl.includes("www.alipan.com")){
-		tabsq.push("阿里雲盤");
-	}
-});
-if (tabsq.length == 1){
-	TABS=TABS.concat(tabsq);
-}else{
-	let tmpIndex=1;
-	tabsq.forEach(function(it){
-		TABS.push(it+tmpIndex);
-		tmpIndex++;
-	});
-}
+
 TABS=TABS.concat(['国内(改Exo播放器)','国内2']);
 `,
         "lists":lists
