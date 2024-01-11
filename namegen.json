@@ -94,8 +94,7 @@
                         "api": "csp_Kunyu77",
                         "searchable": 1,
                         "quickSearch": 1,
-                        "filterable": 1,
-			"jar": "https://jihulab.com/namegen/jar/-/raw/main/sd.jar"
+                        "filterable": 1
 		},
 		{
                         "key": "机器人",
