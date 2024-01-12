@@ -223,22 +223,9 @@
 	],
 		"lives":[
 			{
-				"name": "live.ipv6",
+				"name": "live",
 				"type": 0,
-				"url": "https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-				"playerType": 1,
-				"ua": "okhttp/3.15",
-				"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "https://epg.112114.xyz/logo/{name}.png"
-			},
-			{
-				"name": "live.ipv6.m3u",
-				"type": 0,
-				"url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-				"playerType": 1,
-				"ua": "okhttp/3.15",
-				"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "https://epg.112114.xyz/logo/{name}.png"
+				"url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
 			}
 			
 		],
@@ -310,6 +297,26 @@
 			}
 		],
 		"parses":[
+			{
+				"name":"Json并发",
+				"type":2,
+				"url":"Parallel"
+			},
+			{
+				"name":"Json轮询",
+				"type":2,
+				"url":"Sequence"
+			},
+			{
+				"name":"解析聚合",
+				"type":3,
+				"url":"Demo"
+			},
+			{
+				"name":"Web聚合",
+				"type":3,
+				"url":"Web"
+			},
 			{"name":"777","type":0,"url":"https://jx.777jiexi.com/player/?url="},
 			{"name":"杰森","type":0,"url":"https://jx.jsonplayer.com/player/?url="}, 
 			{"name":"xmflv","type":0,"url":"https://jx.xmflv.com/?url="}
