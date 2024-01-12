@@ -1,4 +1,4 @@
-﻿var rule = {
+var rule = {
     title:'优酷',
     host:'https://www.%79%6f%75%6b%75.com',
     homeUrl:'',
