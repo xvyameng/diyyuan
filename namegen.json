@@ -45,8 +45,8 @@
 			"ext": "./js/aikanbot.js"
                },
                {
-			"key": "348",
-			"name": "348",
+			"key": "B站",
+			"name": "B站",
 			"type": 3,
 			"playerType": "2",
 			"api": "./lib/drpy2.min.js",
