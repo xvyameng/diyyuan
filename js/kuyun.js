@@ -1,137 +1,44 @@
-﻿globalThis.getTime = function(){
-let ts= Math.round(new Date().getTime()/1000).toString();
-log('获取时间戳:'+ts);
-return ts
-}
-
-globalThis.getHeaders= function(input,ts){
-let tkstr=input.split('?')[1].split('&').map(function(it){
-    return it.split('=')[1]
-}).join('');
-tkstr=input.split('?')[0].replace('https://api.tyun77.cn','')+tkstr+ts+'XSpeUFjJ';
-log('tk加密前:'+tkstr);
-let TK=md5(tkstr);
-log('tk加密后:'+TK);
-let headers={
-    "User-Agent":"okhttp/3.12.0",
-    "TK":TK
-};
-return headers
-}
-
-var rule = {
-    title:'酷云77',
-    host:'https://api.tyun77.cn',
-    hostJs:'let html=request(HOST+"/api.php/provide/getDomain");',
-    homeUrl:'/api.php/provide/homeBlock?type_id=0',
-    searchUrl:'/api.php/provide/searchVideo?searchName=**',
-    searchable:2,
-    quickSearch:0,
-    filterable:1,
-    multi:1,
-    // 分类链接fypage参数支持1个()表达式
-    // url:'/api.php/provide/searchFilter?type_id=fyclass&pagesize=24&pagenum=fypage', // 旧的写法注释掉
-    url:'/api.php/provide/searchFilter?devid=453CA5D864457C7DB4D0EAA93DE96E66&package=com.sevenVideo.app.android&pagenum=fypage&pagesize=24&version=&sj=$ts&type_id=fyclass',
-    // detailUrl:'/api.php/provide/videoDetail?devid=453CA5D864457C7DB4D0EAA93DE96E66&package=com.sevenVideo.app.android&version=&ids=fyid', //旧的写法注释掉
-    detailUrl:'/api.php/provide/videoDetail?devid=453CA5D864457C7DB4D0EAA93DE96E66&ids=fyid&package=com.sevenVideo.app.android&version=',
-    filter_url:'year={{fl.y}}&category={{fl.scat}}&area={{fl.a}}',
-    filter:{0: [{'key': 'y', 'name': '年代', 'value': [{'n': '全部', 'v': ''},{'n': '2023', 'v': '2023'}, {'n': '2022', 'v': '2022'}, {'n': '2021', 'v': '2021'}, {'n': '2020', 'v': '2020'}, {'n': '2019', 'v': '2019'}, {'n': '2018', 'v': '2018'}, {'n': '2017', 'v': '2017'}, {'n': '2016', 'v': '2016'}, {'n': '2015', 'v': '2015'}, {'n': '2015之前', 'v': 'lt|2015'}]}, {'key': 'a', 'name': '地区', 'value': [{'n': '全部', 'v': ''}, {'n': '中国大陆', 'v': '中国大陆'}, {'n': '美国', 'v': '美国'}, {'n': '日本', 'v': '日本'}, {'n': '中国香港', 'v': '中国香港'}, {'n': '中国台湾', 'v': '中国台湾'}, {'n': '韩国', 'v': '韩国'}, {'n': '欧洲', 'v': '欧洲'}, {'n': '其他', 'v': '泰国'}]}, {'key': 'scat', 'name': '类型', 'value': [{'n': '全部', 'v': ''}, {'n': '剧情', 'v': '剧情'}, {'n': '动作', 'v': '动作'}, {'n': '科幻', 'v': '科幻'}, {'n': '喜剧', 'v': '喜剧'}, {'n': '战争', 'v': '战争'}, {'n': '爱情', 'v': '爱情'}, {'n': '恐怖', 'v': '恐怖'}, {'n': '伦理', 'v': '伦理'}]}], 1: [{'key': 'y', 'name': '年代', 'value': [{'n': '全部', 'v': ''},{'n': '2023', 'v': '2023'}, {'n': '2022', 'v': '2022'}, {'n': '2021', 'v': '2021'}, {'n': '2020', 'v': '2020'}, {'n': '2019', 'v': '2019'}, {'n': '2018', 'v': '2018'}, {'n': '2017', 'v': '2017'}, {'n': '2016', 'v': '2016'}, {'n': '2015', 'v': '2015'}, {'n': '2015之前', 'v': 'lt|2015'}]}, {'key': 'a', 'name': '地区', 'value': [{'n': '全部', 'v': ''}, {'n': '中国大陆', 'v': '中国大陆'}, {'n': '美国', 'v': '美国'}, {'n': '日本', 'v': '日本'}, {'n': '中国香港', 'v': '中国香港'}, {'n': '中国台湾', 'v': '中国台湾'}, {'n': '韩国', 'v': '韩国'}, {'n': '欧洲', 'v': '欧洲'}, {'n': '其他', 'v': '泰国'}]}, {'key': 'scat', 'name': '类型', 'value': [{'n': '全部', 'v': ''}, {'n': '剧情', 'v': '剧情'}, {'n': '动作', 'v': '动作'}, {'n': '科幻', 'v': '科幻'}, {'n': '喜剧', 'v': '喜剧'}, {'n': '战争', 'v': '战争'}, {'n': '爱情', 'v': '爱情'}, {'n': '恐怖', 'v': '恐怖'}, {'n': '伦理', 'v': '伦理'}]}], 2: [{'key': 'y', 'name': '年代', 'value': [{'n': '全部', 'v': ''},{'n': '2023', 'v': '2023'}, {'n': '2022', 'v': '2022'}, {'n': '2021', 'v': '2021'}, {'n': '2020', 'v': '2020'}, {'n': '2019', 'v': '2019'}, {'n': '2018', 'v': '2018'}, {'n': '2017', 'v': '2017'}, {'n': '2016', 'v': '2016'}, {'n': '2015', 'v': '2015'}, {'n': '2015之前', 'v': 'lt|2015'}]}, {'key': 'a', 'name': '地区', 'value': [{'n': '全部', 'v': ''}, {'n': '中国大陆', 'v': '中国大陆'}, {'n': '美国', 'v': '美国'}, {'n': '日本', 'v': '日本'}, {'n': '中国香港', 'v': '中国香港'}, {'n': '中国台湾', 'v': '中国台湾'}, {'n': '韩国', 'v': '韩国'}, {'n': '欧洲', 'v': '欧洲'}, {'n': '其他', 'v': '泰国'}]}, {'key': 'scat', 'name': '类型', 'value': [{'n': '全部', 'v': ''}, {'n': '剧情', 'v': '剧情'}, {'n': '动作', 'v': '动作'}, {'n': '科幻', 'v': '科幻'}, {'n': '喜剧', 'v': '喜剧'}, {'n': '战争', 'v': '战争'}, {'n': '爱情', 'v': '爱情'}, {'n': '恐怖', 'v': '恐怖'}, {'n': '伦理', 'v': '伦理'}]}], 3: [{'key': 'y', 'name': '年代', 'value': [{'n': '全部', 'v': ''},{'n': '2023', 'v': '2023'}, {'n': '2022', 'v': '2022'}, {'n': '2021', 'v': '2021'}, {'n': '2020', 'v': '2020'}, {'n': '2019', 'v': '2019'}, {'n': '2018', 'v': '2018'}, {'n': '2017', 'v': '2017'}, {'n': '2016', 'v': '2016'}, {'n': '2015', 'v': '2015'}, {'n': '2015之前', 'v': 'lt|2015'}]}, {'key': 'a', 'name': '地区', 'value': [{'n': '全部', 'v': ''}, {'n': '中国大陆', 'v': '中国大陆'}, {'n': '美国', 'v': '美国'}, {'n': '日本', 'v': '日本'}, {'n': '中国香港', 'v': '中国香港'}, {'n': '中国台湾', 'v': '中国台湾'}, {'n': '韩国', 'v': '韩国'}, {'n': '欧洲', 'v': '欧洲'}, {'n': '其他', 'v': '泰国'}]}, {'key': 'scat', 'name': '类型', 'value': [{'n': '全部', 'v': ''}, {'n': '剧情', 'v': '剧情'}, {'n': '动作', 'v': '动作'}, {'n': '科幻', 'v': '科幻'}, {'n': '喜剧', 'v': '喜剧'}, {'n': '战争', 'v': '战争'}, {'n': '爱情', 'v': '爱情'}, {'n': '恐怖', 'v': '恐怖'}, {'n': '伦理', 'v': '伦理'}]}], 4: [{'key': 'y', 'name': '年代', 'value': [{'n': '全部', 'v': ''},{'n': '2023', 'v': '2023'}, {'n': '2022', 'v': '2022'}, {'n': '2021', 'v': '2021'}, {'n': '2020', 'v': '2020'}, {'n': '2019', 'v': '2019'}, {'n': '2018', 'v': '2018'}, {'n': '2017', 'v': '2017'}, {'n': '2016', 'v': '2016'}, {'n': '2015', 'v': '2015'}, {'n': '2015之前', 'v': 'lt|2015'}]}, {'key': 'a', 'name': '地区', 'value': [{'n': '全部', 'v': ''}, {'n': '中国大陆', 'v': '中国大陆'}, {'n': '美国', 'v': '美国'}, {'n': '日本', 'v': '日本'}, {'n': '中国香港', 'v': '中国香港'}, {'n': '中国台湾', 'v': '中国台湾'}, {'n': '韩国', 'v': '韩国'}, {'n': '欧洲', 'v': '欧洲'}, {'n': '其他', 'v': '泰国'}]}, {'key': 'scat', 'name': '类型', 'value': [{'n': '全部', 'v': ''}, {'n': '剧情', 'v': '剧情'}, {'n': '动作', 'v': '动作'}, {'n': '科幻', 'v': '科幻'}, {'n': '喜剧', 'v': '喜剧'}, {'n': '战争', 'v': '战争'}, {'n': '爱情', 'v': '爱情'}, {'n': '恐怖', 'v': '恐怖'}, {'n': '伦理', 'v': '伦理'}]}]},
-    headers:{
-		"User-Agent":"okhttp/3.12.0"
+﻿var rule={
+	title:'348电影网',
+	host:'https://www.348z.com',
+	// url:'/vodshow/id/fyclass/page/fypage.html',
+	url:'/vodshow/id/fyfilter.html',
+	filterable:1,//是否启用分类筛选,
+	filter_url:'{{fl.cateId}}{{fl.area}}/page/fypage{{fl.year}}',
+	filter: 
+	{
+		"37":[{"key":"cateId","name":"分类","value":[{"n":"全部","v":"37"},{"n":"4K电影","v":"38"},{"n":"4K电视剧","v":"39"}]},{"key":"area","name":"地区","value":[{"n":"全部","v":""},{"n":"大陆","v":"/area/大陆"},{"n":"香港","v":"/area/香港"},{"n":"台湾","v":"/area/台湾"},{"n":"美国","v":"/area/美国"},{"n":"法国","v":"/area/法国"},{"n":"英国","v":"/area/英国"},{"n":"日本","v":"/area/日本"},{"n":"韩国","v":"/area/韩国"},{"n":"德国","v":"/area/德国"},{"n":"泰国","v":"/area/泰国"},{"n":"印度","v":"/area/印度"},{"n":"意大利","v":"/area/意大利"},{"n":"西班牙","v":"/area/西班牙"},{"n":"加拿大","v":"/area/加拿大"},{"n":"其他","v":"/area/其他"}]},{"key":"year","name":"年份","value":[{"n":"全部","v":""},{"n":"2023","v":"/year/2023"},{"n":"2022","v":"/year/2022"},{"n":"2021","v":"/year/2021"},{"n":"2020","v":"/year/2020"},{"n":"2019","v":"/year/2019"},{"n":"2018","v":"/year/2018"},{"n":"2017","v":"/year/2017"},{"n":"2016","v":"/year/2016"},{"n":"2015","v":"/year/2015"},{"n":"2014","v":"/year/2014"},{"n":"2013","v":"/year/2013"},{"n":"2012","v":"/year/2012"},{"n":"2011","v":"/year/2011"},{"n":"2010","v":"/year/2010"}]}],
+		"1":[{"key":"cateId","name":"分类","value":[{"n":"全部","v":"1"},{"n":"动作片","v":"6"},{"n":"喜剧片","v":"7"},{"n":"爱情片","v":"8"},{"n":"科幻片","v":"9"},{"n":"恐怖片","v":"10"},{"n":"剧情片","v":"11"},{"n":"战争片","v":"12"},{"n":"纪录片","v":"20"},{"n":"灾难片","v":"21"},{"n":"魔幻片","v":"22"},{"n":"青春片","v":"23"},{"n":"犯罪片","v":"24"},{"n":"悬疑片","v":"25"},{"n":"微电影","v":"26"},{"n":"音乐片","v":"27"},{"n":"B站电影","v":"29"}]},{"key":"area","name":"地区","value":[{"n":"全部","v":""},{"n":"大陆","v":"/area/大陆"},{"n":"香港","v":"/area/香港"},{"n":"台湾","v":"/area/台湾"},{"n":"美国","v":"/area/美国"},{"n":"法国","v":"/area/法国"},{"n":"英国","v":"/area/英国"},{"n":"日本","v":"/area/日本"},{"n":"韩国","v":"/area/韩国"},{"n":"德国","v":"/area/德国"},{"n":"泰国","v":"/area/泰国"},{"n":"印度","v":"/area/印度"},{"n":"意大利","v":"/area/意大利"},{"n":"西班牙","v":"/area/西班牙"},{"n":"加拿大","v":"/area/加拿大"},{"n":"其他","v":"/area/其他"}]},{"key":"year","name":"年份","value":[{"n":"全部","v":""},{"n":"2023","v":"/year/2023"},{"n":"2022","v":"/year/2022"},{"n":"2021","v":"/year/2021"},{"n":"2020","v":"/year/2020"},{"n":"2019","v":"/year/2019"},{"n":"2018","v":"/year/2018"},{"n":"2017","v":"/year/2017"},{"n":"2016","v":"/year/2016"},{"n":"2015","v":"/year/2015"},{"n":"2014","v":"/year/2014"},{"n":"2013","v":"/year/2013"},{"n":"2012","v":"/year/2012"},{"n":"2011","v":"/year/2011"},{"n":"2010","v":"/year/2010"}]}],
+		"2":[{"key":"cateId","name":"分类","value":[{"n":"全部","v":"2"},{"n":"国产剧","v":"13"},{"n":"港台剧","v":"14"},{"n":"日韩剧","v":"15"},{"n":"欧美剧","v":"16"},{"n":"B站剧集","v":"49"},{"n":"其他剧","v":"50"}]},{"key":"area","name":"地区","value":[{"n":"全部","v":""},{"n":"内地","v":"/area/内地"},{"n":"韩国","v":"/area/韩国"},{"n":"香港","v":"/area/香港"},{"n":"台湾","v":"/area/台湾"},{"n":"日本","v":"/area/日本"},{"n":"美国","v":"/area/美国"},{"n":"泰国","v":"/area/泰国"},{"n":"英国","v":"/area/英国"},{"n":"新加坡","v":"/area/新加坡"},{"n":"其他","v":"/area/其他"}]},{"key":"year","name":"年份","value":[{"n":"全部","v":""},{"n":"2023","v":"/year/2023"},{"n":"2022","v":"/year/2022"},{"n":"2021","v":"/year/2021"},{"n":"2020","v":"/year/2020"},{"n":"2019","v":"/year/2019"},{"n":"2018","v":"/year/2018"},{"n":"2017","v":"/year/2017"},{"n":"2016","v":"/year/2016"},{"n":"2015","v":"/year/2015"},{"n":"2014","v":"/year/2014"},{"n":"2013","v":"/year/2013"},{"n":"2012","v":"/year/2012"},{"n":"2011","v":"/year/2011"},{"n":"2010","v":"/year/2010"}]}],
+		"3":[{"key":"area","name":"地区","value":[{"n":"全部","v":""},{"n":"内地","v":"/area/内地"},{"n":"港台","v":"/area/港台"},{"n":"日韩","v":"/area/日韩"},{"n":"欧美","v":"/area/欧美"}]},{"key":"year","name":"年份","value":[{"n":"全部","v":""},{"n":"2023","v":"/year/2023"},{"n":"2022","v":"/year/2022"},{"n":"2021","v":"/year/2021"},{"n":"2020","v":"/year/2020"},{"n":"2019","v":"/year/2019"},{"n":"2018","v":"/year/2018"},{"n":"2017","v":"/year/2017"},{"n":"2016","v":"/year/2016"},{"n":"2015","v":"/year/2015"},{"n":"2014","v":"/year/2014"},{"n":"2013","v":"/year/2013"},{"n":"2012","v":"/year/2012"},{"n":"2011","v":"/year/2011"},{"n":"2010","v":"/year/2010"}]}],
+		"4":[{"key":"area","name":"地区","value":[{"n":"全部","v":""},{"n":"国产","v":"/area/国产"},{"n":"日本","v":"/area/日本"},{"n":"欧美","v":"/area/欧美"},{"n":"其他","v":"/area/其他"}]},{"key":"year","name":"年份","value":[{"n":"全部","v":""},{"n":"2023","v":"/year/2023"},{"n":"2022","v":"/year/2022"},{"n":"2021","v":"/year/2021"},{"n":"2020","v":"/year/2020"},{"n":"2019","v":"/year/2019"},{"n":"2018","v":"/year/2018"},{"n":"2017","v":"/year/2017"},{"n":"2016","v":"/year/2016"},{"n":"2015","v":"/year/2015"},{"n":"2014","v":"/year/2014"},{"n":"2013","v":"/year/2013"},{"n":"2012","v":"/year/2012"},{"n":"2011","v":"/year/2011"},{"n":"2010","v":"/year/2010"}]}]
 	},
-    timeout:5000,
-    class_name:'全部&电影&电视剧&综艺&动漫',
-    class_url:'0&1&2&3&4',
-    limit:20,
-    play_parse:true,
-    play_json:0,
-    // 手动调用解析请求json的url,此lazy不方便
-    // lazy:'js:input={parse:1,url:input};',
-    lazy:'',
-    lazy:'js:function GetPlayUrl(playUrl){let realPlay={parse:0,url:playUrl};if(/mgtv|sohu/.test(playUrl)){realPlay.headers={"User-Agent":"Mozilla/5.0"}}else if(/bili/.test(playUrl)){realPlay.headers={"User-Agent":"Mozilla/5.0",Referer:"https://www.bilibili.com"}}else if(/ixigua/.test(playUrl)){realPlay.headers={"User-Agent":"Mozilla/5.0",Referer:"https://www.ixigua.com"}}return realPlay}if(/\\.m3u8|\\.mp4/.test(input)){input={parse:0,url:input}}else{try{let jxUrl="http://api.tyun77.cn/api.php/provide/parserUrl?url=";var t=Math.floor((new Date).getTime()/1e3).toString();let jxExt="&retryNum=0&pcode=010110002&version=2.1&devid=f9c9ce5bb5827a266829383718e6131a&package=com.sevenVideo.app.android&sys=android&sysver=12&brand=Xiaomi&model=Mi_10_Pro&sj="+t;let url=jxUrl+input+jxExt;let TK="/api.php/provide/parserUrl"+"Xiaomif9c9ce5bb5827a266829383718e6131aMi_10_Procom.sevenVideo.app.android010110002"+0+t+"android12"+encodeURIComponent(vipUrl)+"2.1"+t+"XSpeUFjJ";let html=request(url,{headers:{Referer:jxUrl,"User-Agent":"okhttp/3.12.0",TK:md5(TK)}});let urll=JSON.parse(html).data.url;let playhtml=request(urll);let playurl=JSON.parse(playhtml).url;input=GetPlayUrl(playurl)}catch(e){input={parse:1,jx:1,url:input}}}',
-    推荐:'json:data.blocks;contents;title;videoCover;msg;id',
-    double:true,
-    // 一级:'json:data.result;title;videoCover;msg;id', 旧的写法注释掉
-    一级:`js:
-    var d=[];
-    let ts= getTime();
-    input=input.replace('$ts',ts);
-	let html = request(input,{
-	headers:getHeaders(input,ts)
-	});
-	//print(html);
-	html = JSON.parse(html);
-    html.data.result.forEach(function(it){
-    d.push({
-    title:it.title,
-    img:it.videoCover,
-    desc:it.msg,
-    url:it.id
-    })
-    });
-    setResult(d);
-    `,
-    二级:`js: var d = [];
-    VOD = {
-        vod_id: input
-    };
-    let ts= getTime();
-try {
-    input=input+'&sj='+ts;
-	let html = request(input,{
-	headers:getHeaders(input,ts)
-	});
-	//print(html);
-	html = JSON.parse(html);
-	let node = html.data;
-	VOD = {
-		vod_id: node["id"],
-		vod_name: node["videoName"],
-		vod_pic: node["videoCover"],
-		type_name: node["subCategory"],
-		vod_year: node["year"],
-		vod_area: node["area"],
-		vod_remarks: node["msg"],
-		vod_actor: node["actor"],
-		vod_director: node["director"],
-		vod_content: node["brief"].strip()
-	};
-	let tid = input.split("ids=")[1].split('&')[0];
-	let listUrl='https://api.tyun77.cn/api.php/provide/videoPlaylist?devid=453CA5D864457C7DB4D0EAA93DE96E66&ids='+tid+'&package=com.sevenVideo.app.android&version=&sj='+ts;
-	html = request(listUrl,{
-	headers:getHeaders(listUrl,ts)
-	});
-	html = JSON.parse(html);
-	let episodes = html.data.episodes;
-	let playMap = {};
-	if (typeof play_url === "undefined") {
-		var play_url = ""
-	}
-	play_url = play_url.replace("&play_url=", "&type=json&play_url=");
-	episodes.forEach(function(ep) {
-		let playurls = ep["playurls"];
-		playurls.forEach(function(playurl) {
-			let source = playurl["playfrom"];
-			if (!playMap.hasOwnProperty(source)) {
-				playMap[source] = []
-			}
-			playMap[source].append(playurl["title"].strip() + "$" + play_url + urlencode(playurl["playurl"]))
-		})
-	});
-	let playFrom = [];
-	let playList = [];
-	Object.keys(playMap)
-		.forEach(function(key) {
-			playFrom.append(key);
-			playList.append(playMap[key].join("#"))
-		});
-	let vod_play_from = playFrom.join("$$$");
-	let vod_play_url = playList.join("$$$");
-	VOD["vod_play_from"] = vod_play_from;
-	VOD["vod_play_url"] = vod_play_url
-} catch (e) {
-	log("获取二级详情页发生错误:" + e.message)
-}`,
-    搜索:'',
-    搜索:'json:data;videoName;videoCover;msg;id',
+	filter_def:{
+		1:{cateId:'1'},
+		2:{cateId:'2'},
+		3:{cateId:'3'},
+		4:{cateId:'4'},
+		37:{cateId:'37'}
+	},
+	searchUrl:'/vodsearch/page/fypage/wd/**.html',
+	searchable:2,//是否启用全局搜索,
+	headers:{//网站的请求头,完整支持所有的,常带ua和cookies
+		'User-Agent': 'PC_UA',
+	},
+	class_parse: '.nav-channel a;a&&Text;a&&href;/(\\d+).html',
+	play_parse: true,
+	lazy:'',
+	limit:6,
+	double:true, // 推荐内容是否双层定位
+	推荐:'.vodlist;*;*;*;*;*',
+	一级:'.pack-ykpack;a&&title;.eclazy&&data-original;.pack-prb&&Text;a&&href',
+	二级:{
+	"title":".fyy&&Text;.s-top-info-detail&&Text",
+	"img":".g-playicon&&img&&src",
+	"desc":".s-top-info-title span&&Text;;;.item-type&&Text;.item-actor:eq(2)&&Text",
+	"content":".ec-palytcji span&&Text",
+	"tabs":".swiper-wrapper:eq(1) .channelname",
+	"lists":".content_playlist:eq(#id) li"
+	},
+	搜索:'.pack-packcover.returl.list-top-b;*;*;*;*',
 }
