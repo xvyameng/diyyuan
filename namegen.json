@@ -53,8 +53,8 @@
 			"ext": "./js/kuyun.js"
                },
 	       {
-			"key": "360",
-			"name": "360",
+			"key": "yk",
+			"name": "yk",
 			"type": 3,
 			"playerType": "2",
 			"api": "./lib/drpy2.min.js",
