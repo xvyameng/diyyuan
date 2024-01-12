@@ -49,15 +49,7 @@
 			"playerType": "2",
 			"api": "./lib/drpy2.min.js",
 			"ext": "./js/360.js"
-               },
-	      {
-			"key": "搜狗",
-			"name": "搜狗",
-			"type": 3,
-			"playerType": "2",
-			"api": "./lib/drpy2.min.js",
-			"ext": "./js/sg.js"
-               },      
+               },    
 		{
 			"key": "NanGua",
 			"name": "南瓜",
