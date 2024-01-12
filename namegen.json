@@ -1,5 +1,5 @@
 {
-	"spider":"./namegen.jar",
+	"spider":"./namegen.jar","wallpaper":"./namegen.jpg",
 	"sites":[
 		{
 			"key": "豆瓣",
