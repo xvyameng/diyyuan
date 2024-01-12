@@ -52,6 +52,14 @@
 			"api": "./lib/drpy2.min.js",
 			"ext": "./js/kuyun.js"
                },
+	       {
+			"key": "360",
+			"name": "360",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/360.js"
+               },
 		{
 			"key": "影探",
 			"name": "影探",
