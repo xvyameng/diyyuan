@@ -36,16 +36,14 @@
 			"filterable": 1, 
 			"changeable": 1 
 		},
-		{
+               {
 			"key": "机器人",
 			"name": "机器人",
 			"type": 3,
-			"api": "csp_Ikanbot",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"jar": "./jar/s.jar"
-                },
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/aikanbot.js"
+               },
 		{
 			"key": "七七",
 			"name": "七七",
