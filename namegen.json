@@ -58,22 +58,6 @@
 			"api": "./lib/drpy2.min.js",
 			"ext": "./js/sg.js"
                },      
-               {
-			"key": "渣渣",
-			"name": "渣渣",
-			"type": 3,
-			"playerType": "2",
-			"api": "./lib/drpy2.min.js",
-			"ext": "./js/zz.js"
-               },
-	       {
-			"key": "私人",
-			"name": "私人",
-			"type": 3,
-			"playerType": "2",
-			"api": "./lib/drpy2.min.js",
-			"ext": "./js/sr.js"
-               },
 		{
 			"key": "NanGua",
 			"name": "南瓜",
