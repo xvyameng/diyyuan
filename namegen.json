@@ -45,8 +45,8 @@
 			"ext": "./js/aikanbot.js"
                },
                {
-			"key": "七七",
-			"name": "七七",
+			"key": "348",
+			"name": "348",
 			"type": 3,
 			"playerType": "2",
 			"api": "./lib/drpy2.min.js",
