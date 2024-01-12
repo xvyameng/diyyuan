@@ -85,8 +85,8 @@
 			"ext": "./js/aikanbot.js"
                },
                {
-			"key": "B站",
-			"name": "B站",
+			"key": "农民",
+			"name": "农民",
 			"type": 3,
 			"playerType": "2",
 			"api": "./lib/drpy2.min.js",
