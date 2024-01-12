@@ -11,6 +11,46 @@
 			"ext": "./lib/douban.json"
 		},
 		{
+			"key": "优酷",
+			"name": "优酷",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/yk.js"
+               },
+		{
+			"key": "腾讯",
+			"name": "腾讯",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/tx.js"
+               },
+		{
+			"key": "芒果TV",
+			"name": "芒果TV",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/mgtv.js"
+               },
+		{
+			"key": "爱奇艺",
+			"name": "爱奇艺",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/aqy.js"
+               },
+	       {
+			"key": "360",
+			"name": "360",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/360.js"
+               },
+		{
 			"key": "NanGua",
 			"name": "南瓜",
 			"type": 3,
@@ -51,14 +91,6 @@
 			"playerType": "2",
 			"api": "./lib/drpy2.min.js",
 			"ext": "./js/kuyun.js"
-               },
-	       {
-			"key": "yk",
-			"name": "yk",
-			"type": 3,
-			"playerType": "2",
-			"api": "./lib/drpy2.min.js",
-			"ext": "./js/360.js"
                },
 		{
 			"key": "影探",
