@@ -42,8 +42,8 @@
 			"ext": "./js/tx.js"
                 },
 		{
-			"key": "芒果TV",
-			"name": "芒果TV",
+			"key": "芒果",
+			"name": "芒果",
 			"type": 3,
 			"playerType": "2",
 			"api": "./lib/drpy2.min.js",
