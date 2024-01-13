@@ -1,7 +1,5 @@
 {
-		//jar调用
 	"spider":"./namegen.jar",
-		//直播
 	"lives":[
 			{
 				"name": "live",
@@ -11,7 +9,6 @@
 			
 		],
 	"sites":[
-		//js调用
 		{
 			"key": "优酷",
 			"name": "优酷",
@@ -52,7 +49,7 @@
 			"api": "./lib/drpy2.min.js",
 			"ext": "./js/aikanbot.js"
 		}
-	],
+		],
 
 		"doh": [
 			{
@@ -61,7 +58,7 @@
 				"ips": [
 					"8.8.4.4",
 					"8.8.8.8"
-				]
+				        ]
 			}
 		],
 		"rules":[
