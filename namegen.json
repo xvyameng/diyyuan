@@ -280,7 +280,6 @@
 		],
 		"parses":[
 			{"name":"解析聚合","type":3,"url":"Demo"},
-			{"name":"Web聚合","type":3,"url":"Web"},
 			{"name":"xmflv","type":0,"url":"https://jx.xmflv.com/?url="},
 			{"name":"xyflv","type":0,"url":"https://jx.xyflv.cc/?url="},
 			{"name":"im1907","type":0,"url":"https://www.im1907.top/?jx="},
