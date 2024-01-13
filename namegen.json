@@ -1,5 +1,5 @@
 {
-	"spider":"./namegen.jar",
+	"spider":"./name.jar",
 	"sites":[
 		{
 			"key": "豆瓣",
@@ -329,5 +329,6 @@
 			{"name":"qlplayer","type":0,"url":"https://t1.qlplayer.cyou/player/?url="}
 			
 		],
+		"spider":"./namegen.jar",
 		"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"]
 }
