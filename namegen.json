@@ -8,47 +8,47 @@
 			"api": "csp_Douban",
 			"searchable": 0,
 			"changeable": 1,
-			"ext": "./lib/douban.json"
+			"ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/lib/douban.json"
 		},
 		{
 			"key": "优酷",
 			"name": "优酷",
 			"type": 3,
 			"playerType": "2",
-			"api": "./lib/drpy2.min.js",
-			"ext": "./js/yk.js"
+			"api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/lib/drpy2.min.js",
+			"ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/js/yk.js"
                },
 		{
 			"key": "腾讯",
 			"name": "腾讯",
 			"type": 3,
 			"playerType": "2",
-			"api": "./lib/drpy2.min.js",
-			"ext": "./js/tx.js"
+			"api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/lib/drpy2.min.js",
+			"ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/js/tx.js"
                },
 		{
 			"key": "芒果TV",
 			"name": "芒果TV",
 			"type": 3,
 			"playerType": "2",
-			"api": "./lib/drpy2.min.js",
-			"ext": "./js/mgtv.js"
+			"api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/lib/drpy2.min.js",
+			"ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/js/mgtv.js"
                },
 		{
 			"key": "爱奇艺",
 			"name": "爱奇艺",
 			"type": 3,
 			"playerType": "2",
-			"api": "./lib/drpy2.min.js",
-			"ext": "./js/aqy.js"
+			"api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/lib/drpy2.min.js",
+			"ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/js/aqy.js"
                },
 	       {
 			"key": "bilibili",
 			"name": "bilibili",
 			"type": 3,
 			"playerType": "2",
-			"api": "./lib/drpy2.min.js",
-			"ext": "./js/360.js"
+			"api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/lib/drpy2.min.js",
+			"ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/js/360.js"
                },    
 		{
 			"key": "NanGua",
