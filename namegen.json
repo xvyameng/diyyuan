@@ -90,6 +90,14 @@
 			"ext": "./js/qiyou.js"
                 },
                 {
+			"key": "快看",
+			"name": "快看",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/kk.js"
+                 },
+                {
 			"key": "爱看",
 			"name": "爱看",
 			"type": 3,
