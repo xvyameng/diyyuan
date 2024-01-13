@@ -1,5 +1,7 @@
 {
+		//jar调用
 	"spider":"./namegen.jar",
+		//直播
 	"lives":[
 			{
 				"name": "live",
