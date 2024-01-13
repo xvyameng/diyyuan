@@ -279,7 +279,7 @@
 			}
 		],
 		"parses":[
-			{"name":"解析聚合","type":3,"url":"Demo"},
+			{"name":"namegen","type":3,"url":"Web"},
 			{"name":"VIP1","type":0,"url":"https://jx.777jiexi.com/player/?url="},
 			{"name":"VIP2","type":0,"url":"https://jx.jsonplayer.com/player/?url="}, 
 			{"name":"VIP3","type":0,"url":"https://jx.xmflv.com/?url="},
