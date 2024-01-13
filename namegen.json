@@ -89,6 +89,14 @@
 			"api": "./lib/drpy2.min.js",
 			"ext": "./js/kuyun.js"
 		 },
+		 {
+			"key": "荐片",
+			"name": "荐片",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/jp.js"
+		 },
                  {
 			"key": "新版6V",
 			"name": "新版6V",
@@ -159,9 +167,9 @@
 		"parses":[
 			{"name":"解析聚合","type":3,"url":"Demo"},
 			{"name":"Web聚合","type":3,"url":"Web"},
-			{"name":"im1907","type":0,"url":"https://www.im1907.top/?jx="},
-			{"name":"xyflv","type":0,"url":"https://jx.xyflv.cc/?url="},
 			{"name":"xmflv","type":0,"url":"https://jx.xmflv.com/?url="},
+			{"name":"xyflv","type":0,"url":"https://jx.xyflv.cc/?url="},
+			{"name":"im1907","type":0,"url":"https://www.im1907.top/?jx="},
 			{"name":"777","type":0,"url":"https://jx.777jiexi.com/player/?url="},
 			{"name":"jsonplayer","type":0,"url":"https://jx.jsonplayer.com/player/?url="}, 
 			{"name":"ckplayer","type":0,"url":"https://www.ckplayer.vip/jiexi/?url="},
