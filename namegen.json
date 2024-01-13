@@ -99,6 +99,14 @@
 			"ext": "./js/xb6v.js"
                  },
                  {
+			"key": "4khdr",
+			"name": "4khdr",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/4khdr.js"
+                 },
+                 {
 			"key": "MP4US",
 			"name": "MP4",
 			"type": 3,
