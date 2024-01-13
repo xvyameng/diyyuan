@@ -41,15 +41,7 @@
 			"playerType": "2",
 			"api": "./lib/drpy2.min.js",
 			"ext": "./js/aqy.js"
-               },
-	       {
-			"key": "bilibili",
-			"name": "bilibili",
-			"type": 3,
-			"playerType": "2",
-			"api": "./lib/drpy2.min.js",
-			"ext": "./js/360.js"
-               },    
+               }, 
 		{
 			"key": "NanGua",
 			"name": "南瓜",
