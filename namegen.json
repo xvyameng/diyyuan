@@ -104,7 +104,7 @@
 			"type": 3,
 			"playerType": "2",
 			"api": "./lib/drpy2.min.js",
-			"ext": "./js/mp4.js"
+			"ext": "./js/mp4us.js"
                  }
 		 ],
 
