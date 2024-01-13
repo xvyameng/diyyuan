@@ -97,6 +97,14 @@
 			"api": "./lib/drpy2.min.js",
 			"ext": "./js/1369.js"
 		 },
+		 {
+			"key": "cz",
+			"name": "厂长",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/cz.js"
+		 },
                  {
 			"key": "酷吧",
 			"name": "酷吧",
