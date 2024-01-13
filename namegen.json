@@ -105,7 +105,7 @@
 			"playerType": "2",
 			"api": "./lib/drpy2.min.js",
 			"ext": "./js/mp4.js"
-                 },
+                 }
 		 ],
 
 		"doh": [
