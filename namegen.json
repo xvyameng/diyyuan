@@ -13,10 +13,9 @@
 			"key": "豆瓣",
 			"name": "豆瓣",
 			"type": 3,
-			"api": "csp_Douban",
-			"searchable": 0,
-			"changeable": 1,
-			"ext": "./lib/douban.json"
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/douban.js"
 		},
 		{
 			"key": "优酷",
