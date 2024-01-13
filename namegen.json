@@ -66,6 +66,14 @@
 			"ext": "./js/sg.js"
 		},  
 		{
+			"key": "bilibili",
+			"name": "bilibili",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/bili.js"
+		},  
+		{
 			"key": "机器人",
 			"name": "机器人",
 			"type": 3,
@@ -97,6 +105,14 @@
 			"api": "./lib/drpy2.min.js",
 			"ext": "./js/1369.js"
 		 },
+                {
+			"key": "南瓜",
+			"name": "南瓜",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/ng.js"
+                },
 		 {
 			"key": "cz",
 			"name": "厂长",
