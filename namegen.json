@@ -57,8 +57,56 @@
 			"playerType": "2",
 			"api": "./lib/drpy2.min.js",
 			"ext": "./js/aikanbot.js"
-		}
-		],
+		},
+                {
+			"key": "奇优",
+			"name": "奇优",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/qiyou.js"
+                },
+                {
+			"key": "爱看",
+			"name": "爱看",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/aikkan.js"
+                 },
+                 {
+			"key": "酷吧",
+			"name": "酷吧",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/kuba.js"
+                 },
+		 {
+			"key": "农民",
+			"name": "农民",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/kuyun.js"
+		 },
+                 {
+			"key": "新版6V",
+			"name": "新版6V",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/xb6v.js"
+                 },
+                 {
+			"key": "MP4US",
+			"name": "MP4",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/mp4.js"
+                 },
+		 ],
 
 		"doh": [
 			{
