@@ -313,22 +313,18 @@
 			}
 		],
 		"parses":[
-                        {"name":"Json并发","type":2,"url":"Parallel"},
-			{"name":"Json轮询","type":2,"url":"Sequence"},
-			{"name":"解析聚合","type":3,"url":"Demo"},
-			{"name":"Web聚合","type":3,"url":"Web"},
 			{"name":"xyflv","type":0,"url":"https://jx.xyflv.cc/?url="},
 			{"name":"xmflv","type":0,"url":"https://jx.xmflv.com/?url="},
 			{"name":"im1907","type":0,"url":"https://www.im1907.top/?jx="},
 			{"name":"777","type":0,"url":"https://jx.777jiexi.com/player/?url="},
-			{"name":"jsonplayer","type":0,"url":"https://jx.jsonplayer.com/player/?url="}, 
+			{"name":"杰森","type":0,"url":"https://jx.jsonplayer.com/player/?url="}, 
 			{"name":"ckplayer","type":0,"url":"https://www.ckplayer.vip/jiexi/?url="},
 			{"name":"8090g","type":0,"url":"https://www.8090g.cn/?url="}, 
 			{"name":"8090","type":0,"url":"https://www.8090.la/8090/?url="},
 			{"name":"m3u8","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="},
 			{"name":"ik9","type":0,"url":"https://yparse.ik9.cc/index.php?url="},
 			{"name":"qlplayer","type":0,"url":"https://t1.qlplayer.cyou/player/?url="}
+			
 		],
 		"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"]
-    ]
 }
