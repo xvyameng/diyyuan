@@ -97,6 +97,14 @@
 			"api": "./lib/drpy2.min.js",
 			"ext": "./js/aikkan.js"
                  },
+                {
+			"key": "影探",
+			"name": "影探",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/yt.js"
+                },
 		 {
 			"key": "1369",
 			"name": "1369",
