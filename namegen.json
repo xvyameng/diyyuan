@@ -168,7 +168,7 @@
 			"playerType": "2",
 			"api": "./lib/drpy2.min.js",
 			"ext": "./js/xb6v.js"
-                 }
+                 },
 		{
 			"key":"Xunlei8",
 			"name":"Xunlei8",
