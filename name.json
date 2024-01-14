@@ -1,5 +1,5 @@
 {
-	"spider":"./pg.jar",
+	"spider":"./namegen.jar",
 	"sites":[
 		{
 			"key": "豆瓣",
