@@ -53,27 +53,9 @@
 			"key": "NanGua",
 			"name": "南瓜",
 			"type": 3,
-			"api": "csp_NanGua",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "天天",
-			"name": "天天",
-			"type": 3,
-			"api": "csp_TTian",
-			"playerType": 1,
-			"ext": "http://op.ysdqjs.cn"
-		},
-		{ 
-			"key": "YQKan",
-			"name": "一起看",
-			"type": 3, 
-			"api": "csp_YQKan", 
-			"searchable": 1, 
-			"quickSearch": 1, 
-			"filterable": 1, 
-			"changeable": 1 
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/ng.js"
 		},
                {
 			"key": "机器人",
@@ -95,11 +77,9 @@
 			"key": "影探",
 			"name": "影探",
 			"type": 3,
-			"api": "csp_AppYsV2",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "http://wvvipcms.lyyytv.cn:80/api.php/app/"
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/yt.js"
                },
                {
 			"key": "奇优",
@@ -121,79 +101,49 @@
 			"key": "快看",
 			"name": "快看",
 			"type": 3,
-			"api": "csp_Kuaikan",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"filterable": 1
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/kk.js"
 		},
-		{ 
-			"key": "Mayiys", 
-			"name": "蚂蚁",
-			"type": 3, 
-			"api": "csp_Mayiys",
-			"searchable": 1, 
-			"quickSearch": 1, 
-			"filterable": 1, 
-			"changeable": 1
-		 },
 		 {   
 			"key":"Czsapp",
 			"name":"厂长",
 			"type":3,
-			 "api":"csp_Czsapp",
-			"playerType":2,
-			"searchable":1,
-			"changeable":1,
-			"ext": "https://www.czzy66.com/"
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/cz.js"
                  },
 		 {
 			"key": "996",
 			"name": "996",
 			"type": 3,
-			"api": "csp_Cs1369",
-			"searchable": 1,
-			"changeable": 1
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/1369.js"
 		},
 		{
 			"key": "荐片",
 			"name": "荐片",
 			"type": 3,
-			"api": "csp_Jianpian",
-			"searchable": 1,
-			"changeable": 1,
-			"ext": "./lib/jianpian.json",
-			"timeout":60
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/jp.js"
 		},
 		{
 			"key":"新版6V",
 			"name":"新版6V",
 			"type":3,
+			"playerType": "2",
 			"api":"./lib/drpy2.min.js",
-			"ext":"./js/xb6v.js", 
-			"quickSearch":1,
-			"changeable":1, 
-			"timeout":60
-		},
-		{
-			"key":"MP4US",
-			"name":"MP4电影",
-			"type":3,
-			"api":"./lib/drpy2.min.js",
-			"ext":"./js/mp4us.js",
-			"quickSearch":1,
-			"changeable":1, 
-			"timeout":60
+			"ext":"./js/xb6v.js"
 		},
 		{
 			"key":"酷吧",
 			"name":"酷吧",
 			"type":3,
+			"playerType": "2",
 			"api":"./lib/drpy2.min.js",
-			"ext":"./js/kuba.js", 
-			"quickSearch":1,
-			"changeable":1, 
-			"timeout":60
+			"ext":"./js/kuba.js"
 		},
 		{
 			"key":"Xunlei8",
