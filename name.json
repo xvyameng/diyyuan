@@ -194,7 +194,80 @@
 			"playerType":1,
 			"searchable": 1,
 			"changeable": 1
+		},
+		{
+			"key":"四九",
+			"name":"四九",
+			"type":1,
+			"api":"https://49zyw.com/api.php/provide/vod/",
+			"searchable":1,
+			"changeable":1
+		},
+		{
+			"key":"快看",
+			"name":"快看",
+			"type":1,
+			"api":"https://kuaikan-api.com/api.php/provide/vod",
+			"searchable":1,
+			"changeable":1
+		},
+		{
+			"key":"小胡",
+			"name":"小胡",
+			"type":1,
+			"api":"http://c.小胡.icu/api.php/provide/vod",
+			"searchable":1,
+			"changeable":1
+		},
+		{
+			"key":"百度",
+			"name":"百度",
+			"type":1,
+			"api":"https://api.apibdzy.com/api.php/provide/vod",
+			"searchable":1,
+			"changeable": 1
+		},
+		{
+			"key":"极速",
+			"name":"极速",
+			"type":1,
+			"api":"https://jszyapi.com/api.php/provide/vod",
+			"searchable":1,
+			"changeable":1
+		},
+		{
+			"key":"光速",
+			"name":"光速",
+			"type":1,
+			"api":"http://cj.guangsuapi.com/api.php/provide/vod",
+			"searchable":1,
+			"changeable":1
+		},
+		{
+			"key":"熊掌",
+			"name":"熊掌",
+			"type":1,
+			"api":"https://xzcjz.com/api.php/provide/vod",
+			"searchable":1,
+			"changeable":1
+		},
+		{
+			"key":"红牛",
+			"name":"红牛",
+			"type":1,
+			"api":"https://www.hongniuzy2.com/api.php/provide/vod",
+			"searchable":1,
+			"changeable":1
+		},
+		{
+			"key":"快车",
+			"name":"快车",
+			"type":1,
+			"api":"https://caiji.kczyapi.com/api.php/provide/vod",
+			"searchable":1,
+			"changeable":1
 		}
+
 		],
 		"lives":[
 			{
