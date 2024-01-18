@@ -112,7 +112,7 @@
 			"api":"https://caiji.kczyapi.com/api.php/provide/vod",
 			"searchable":1,
 			"changeable":1
-		}
+		},
 		 {
 			"key":"卧龙",
 			"name":"卧龙",
