@@ -9,6 +9,15 @@
 			
 		],
 	"sites":[
+				{
+			"key": "NanGua",
+			"name": "南瓜|弹幕",
+			"type": 3,
+			"api": "csp_NanGua",
+			"searchable": 1,
+			"changeable": 1,
+			"ext": "null$$$1"
+		},
 		{
 			"key": "豆瓣",
 			"name": "豆瓣",
