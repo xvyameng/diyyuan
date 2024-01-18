@@ -1,13 +1,6 @@
 {
 	"spider":"./namegen.jar",
-	"lives":[
-			{
-				"name": "live",
-				"type": 0,
-				"url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
-			}
-			
-		],
+
 	"sites":[
 		{
 			"key": "豆瓣",
@@ -140,6 +133,14 @@
 			"changeable": 1
 		}
 		 ],
+		"lives":[
+			{
+				"name": "live",
+				"type": 0,
+				"url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
+			}
+			
+		],
 		"parses":[
 			{"name":"VIP","type":3,"url":"Web"},
 			{"name":"VIP1","type":0,"url":"https://jx.777jiexi.com/player/?url="},
