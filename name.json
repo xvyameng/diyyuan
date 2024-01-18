@@ -1,0 +1,216 @@
+{
+	"spider":"./namegen.jar",
+	"lives":[
+			{
+				"name": "live",
+				"type": 0,
+				"url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
+			}
+			
+		],
+	"sites":[
+		{
+			"key": "豆瓣",
+			"name": "豆瓣",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/douban.js"
+		},
+		{
+			"key": "爱奇艺",
+			"name": "爱奇艺",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/aqy.js"
+		}, 
+		{
+			"key": "优酷",
+			"name": "优酷",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/yk.js"
+		},
+		{
+			"key": "腾讯",
+			"name": "腾讯",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/tx.js"
+                },
+		{
+			"key": "芒果",
+			"name": "芒果",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/mgtv.js"
+		}, 
+		{
+			"key": "360",
+			"name": "360",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/360.js"
+		}, 
+		{
+			"key": "搜狗",
+			"name": "搜狗",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/sg.js"
+		},  
+		{
+			"key": "bilibili",
+			"name": "bilibili",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/bili.js"
+		},  
+		{
+			"key": "机器人",
+			"name": "机器人",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/aikanbot.js"
+		},
+		 {
+			"key": "1369",
+			"name": "1369",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/1369.js"
+		 },
+		 {
+			"key":"四九",
+			"name":"四九",
+			"type":1,
+			"api":"https://49zyw.com/api.php/provide/vod/",
+			"searchable":1,
+			"changeable":1
+		},
+		{
+			"key":"小胡",
+			"name":"小胡",
+			"type":1,
+			"api":"http://c.小胡.icu/api.php/provide/vod",
+			"searchable":1,
+			"changeable":1
+		},
+		{
+			"key": "暴风",
+			"name": "暴风",
+			"type": 1,
+			"api": "https://bfzyapi.com/api.php/provide/vod",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "索尼",
+			"name": "索尼 ",
+			"type": 1,
+			"api": "https://suoniapi.com/api.php/provide/vod",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "量子",
+			"name": "量子",
+			"type": 1,
+			"api": "https://cj.lziapi.com/api.php/provide/vod/",
+			"playerType":1,
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "非凡",
+			"name": "非凡",
+			"type": 1,
+			"api": "http://cj.ffzyapi.com/api.php/provide/vod/",
+			"playerType":1,
+			"searchable": 1,
+			"changeable": 1
+		}
+		 ],
+
+		"doh": [
+			{
+				"name": "Google",
+				"url": "https://dns.google/dns-query",
+				"ips": [
+					"8.8.4.4",
+					"8.8.8.8"
+				        ]
+			}
+		],
+		"rules":[
+			{
+				"name": "暴风",
+				"hosts": [
+					"bfzy"
+				],
+				"regex": [
+					"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+				]
+			},
+			{
+				"name": "量子",
+				"hosts": [
+					"vip.lz",
+					"hd.lz",
+					"v.cdnlz"
+				],
+				"regex": [
+					"18.5333"
+				]
+			},
+			{
+				"name": "非凡",
+				"hosts": [
+					"vip.ffzy",
+					"hd.ffzy"
+				],
+				"regex": [
+					"25.0666",
+					"25.08"
+				]
+			},
+			{
+				"name": "磁力广告",
+				"hosts": [
+					"magnet"
+				],
+				"regex": [
+					"更多",
+					"最 新",
+					"直 播",
+					"更 新",
+					"社 区",
+					"有 趣"
+				]
+			}
+		],
+		"parses":[
+			{"name":"VIP","type":3,"url":"Web"},
+			{"name":"VIP1","type":0,"url":"https://jx.777jiexi.com/player/?url="},
+			{"name":"VIP2","type":0,"url":"https://jx.jsonplayer.com/player/?url="}, 
+			{"name":"VIP3","type":0,"url":"https://jx.xmflv.com/?url="},
+			{"name":"VIP4","type":0,"url":"https://jx.xyflv.cc/?url="},
+			{"name":"VIP5","type":0,"url":"https://www.ckplayer.vip/jiexi/?url="},
+			{"name":"VIP6","type":0,"url":"https://www.8090g.cn/?url="}, 
+			{"name":"VIP7","type":0,"url":"https://www.8090.la/8090/?url="},
+			{"name":"VIP8","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="},
+			{"name":"VIP9","type":0,"url":"https://yparse.ik9.cc/index.php?url="},
+			{"name":"VIP10","type":0,"url":"https://t1.qlplayer.cyou/player/?url="}
+			
+		],
+		"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"]
+}
