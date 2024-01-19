@@ -189,14 +189,6 @@
 			"changeable":1
 		},
 		{
-			"key":"红牛",
-			"name":"红牛",
-			"type":1,
-			"api":"https://www.hongniuzy2.com/api.php/provide/vod",
-			"searchable":1,
-			"changeable":1
-		},
-		{
 			"key":"快车",
 			"name":"快车",
 			"type":1,
