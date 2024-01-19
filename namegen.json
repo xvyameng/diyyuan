@@ -83,6 +83,22 @@
 			"changeable":1
 		},
 		{
+			"key":"乐视",
+			"name":"乐视",
+			"type":1,
+			"api":"https://leshizyapi.com/api.php/provide/vod",
+			"searchable":1,
+			"changeable":1
+		},
+		{
+			"key":"快看",
+			"name":"快看",
+			"type":1,
+			"api":"https://kuaikan-api.com/api.php/provide/vod",
+			"searchable":1,
+			"changeable":1
+		},
+		{
 			"key": "暴风",
 			"name": "暴风",
 			"type": 1,
@@ -115,78 +131,6 @@
 			"playerType":1,
 			"searchable": 1,
 			"changeable": 1
-		},
-		{
-			"key":"乐视",
-			"name":"乐视",
-			"type":1,
-			"api":"https://leshizyapi.com/api.php/provide/vod",
-			"searchable":1,
-			"changeable":1
-		},
-		{
-			"key":"快看",
-			"name":"快看",
-			"type":1,
-			"api":"https://kuaikan-api.com/api.php/provide/vod",
-			"searchable":1,
-			"changeable":1
-		},
-		{
-			"key":"新浪",
-			"name":"新浪",
-			"type":1,
-			"api":"http://api.xinlangapi.com/xinlangapi.php/provide/vod",
-			"searchable":1,
-			"changeable":1
-		},
-		{
-			"key":"百度",
-			"name":"百度",
-			"type":1,
-			"api":"https://api.apibdzy.com/api.php/provide/vod",
-			"searchable":1,
-			"changeable": 1
-		},
-		{
-			"key":"极速",
-			"name":"极速",
-			"type":1,
-			"api":"https://jszyapi.com/api.php/provide/vod",
-			"searchable":1,
-			"changeable":1
-		},
-		{
-			"key":"熊掌",
-			"name":"熊掌",
-			"type":1,
-			"api":"https://xzcjz.com/api.php/provide/vod",
-			"searchable":1,
-			"changeable":1
-		},
-		{
-			"key":"快车",
-			"name":"快车",
-			"type":1,
-			"api":"https://caiji.kczyapi.com/api.php/provide/vod",
-			"searchable":1,
-			"changeable":1
-		},
-		{
-			"key":"卧龙",
-			"name":"卧龙",
-			"type":1,
-			"api":"https://collect.wolongzyw.com/api.php/provide/vod",
-			"searchable":1,
-			"changeable":1
-		},
-		{
-			"key":"豪华",
-			"name":"豪华",
-			"type":1,
-			"api":"https://hhzyapi.com/api.php/provide/vod",
-			"searchable":1,
-			"changeable":1
 		}
 		 ],
 		"lives":[
