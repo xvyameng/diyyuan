@@ -197,14 +197,6 @@
 			"changeable":1
 		},
 		{
-			"key":"光速",
-			"name":"光速",
-			"type":1,
-			"api":"http://cj.guangsuapi.com/api.php/provide/vod",
-			"searchable":1,
-			"changeable":1
-		},
-		{
 			"key":"熊掌",
 			"name":"熊掌",
 			"type":1,
@@ -236,15 +228,6 @@
 			"searchable":1,
 			"changeable":1
 		},
-		{
-			"key":"享看",
-			"name":"享看",
-			"type":1,
-			"api":"https://xkanzy10.com/api.php/provide/vod",
-			"searchable":1,
-			"changeable":1
-		},
-
 		{
 			"key":"天空",
 			"name":"天空",
