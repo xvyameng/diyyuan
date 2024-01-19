@@ -117,14 +117,6 @@
 			"changeable": 1
 		},
 		{
-			"key":"飞速",
-			"name":"飞速",
-			"type":1,
-			"api":"https://www.feisuzyapi.com/api.php/provide/vod",
-			"searchable":1,
-			"changeable":1
-		},
-		{
 			"key":"乐视",
 			"name":"乐视",
 			"type":1,
