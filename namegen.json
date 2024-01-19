@@ -75,14 +75,6 @@
 			"ext": "./js/aikanbot.js"
 		},
 		 {
-			"key": "1369",
-			"name": "1369",
-			"type": 3,
-			"playerType": "2",
-			"api": "./lib/drpy2.min.js",
-			"ext": "./js/1369.js"
-		 },
-		 {
 			"key":"四九",
 			"name":"四九",
 			"type":1,
