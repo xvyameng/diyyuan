@@ -66,14 +66,6 @@
 			"api": "./lib/drpy2.min.js",
 			"ext": "./js/bili.js"
 		},  
-		{
-			"key": "机器人",
-			"name": "机器人",
-			"type": 3,
-			"playerType": "2",
-			"api": "./lib/drpy2.min.js",
-			"ext": "./js/aikanbot.js"
-		},
 		 {
 			"key":"四九",
 			"name":"四九",
@@ -217,14 +209,6 @@
 			"name":"卧龙",
 			"type":1,
 			"api":"https://collect.wolongzyw.com/api.php/provide/vod",
-			"searchable":1,
-			"changeable":1
-		},
-		{
-			"key":"天空",
-			"name":"天空",
-			"type":1,
-			"api":"https://api.tiankongapi.com/api.php/provide/vod",
 			"searchable":1,
 			"changeable":1
 		},
