@@ -150,6 +150,7 @@
 			{"name":"VIP5","type":0,"url":"https://player.mrgaocloud.com/player/?url="},
 			{"name":"VIP6","type":0,"url":"https://jx.777jiexi.com/player/?url="},
 			{"name":"VIP7","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
+			{"name":"VIP8","type":0,"url":"https://im1907.top/?jx="}
 		],
 			"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","renrenmi"],
 			"rules":[
