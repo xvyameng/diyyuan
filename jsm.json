@@ -147,41 +147,15 @@
 {"name": "自动解析","type": 2,"url": "Parallel"},
 {"name":"超级解析","type":3,"url":"Demo"},
 {"name":"超级嗅探","type":3,"url":"Web"},
-	  {
-      "name": "号",
-      "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=bcdstvxADFJLRW0279&url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "tucheng",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "yzm",
-          "aliyun",
-          "RJuMao",
-          "bilibili",
-          "1905",
-          "xinvip",
-          "XAL",
-          "qiqi",
-          "XALS",
-          "YuMi-vip"
-        ]
-      }
-    },
+			{"name":"VIP1","type":0,"url":"http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url="},
+			{"name":"VIP2","type":0,"url":"http://json.84jia.com/home/api?type=ys&uid=335253&key=bcdstvxADFJLRW0279&url="},
+			{"name":"VIP3","type":0,"url":"https://vip.lianfaka.com/vip/?url="},
+			{"name":"VIP4","type":0,"url":"https://www.pangujiexi.com/pangu/?url="},
+			{"name":"VIP5","type":0,"url":"http://42.51.37.161:5678/json/520239app9/gf2.php?url="},
+			{"name":"VIP6","type":0,"url":"http://119.91.123.253:2345/Api/yun.php?url="}, 
+			{"name":"VIP7","type":0,"url":"https://yinshi.eatuo.com/index.php/mvod/jx2?url="},
+			{"name":"VIP8","type":0,"url":"http://jx.xn--od1aq39b.net:8899/api/?key=uxD8rsV2ISvNHowx5i&url="},
+			{"name":"VIP9","type":0,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url="},
 
 {"name":"★左岸★","type":1,"url":"http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url=","ext": {
         "flag": [
