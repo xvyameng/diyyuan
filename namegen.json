@@ -156,7 +156,9 @@
 			{"name":"VIP12","type":0,"url":"https://jx.777jiexi.com/player/?url="},
 			{"name":"VIP13","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
 			{"name":"VIP14","type":0,"url":"https://yparse.ik9.cc/index.php?url="},
-			{"name":"VIP15","type":0,"url":"https://t1.qlplayer.cyou/player/?url="}
+			{"name":"VIP15","type":0,"url":"https://t1.qlplayer.cyou/player/?url="},
+			{"name":"VIP16","type":0,"url":"https://jx.2s0.cn/player/?url="},
+			{"name":"VIP17","type":0,"url":"https://jx.yangtu.top/?url="}
 		],
 			"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","renrenmi"],
 			"rules":[
