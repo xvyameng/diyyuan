@@ -158,7 +158,8 @@
 			{"name":"VIP14","type":0,"url":"https://yparse.ik9.cc/index.php?url="},
 			{"name":"VIP15","type":0,"url":"https://t1.qlplayer.cyou/player/?url="},
 			{"name":"VIP16","type":0,"url":"https://jx.2s0.cn/player/?url="},
-			{"name":"VIP17","type":0,"url":"https://jx.yangtu.top/?url="}
+			{"name":"VIP17","type":0,"url":"https://43.240.74.102:4433/?url="},
+			{"name":"VIP18","type":0,"url":"https://jx.yangtu.top/?url="}
 		],
 			"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","renrenmi"],
 			"rules":[
