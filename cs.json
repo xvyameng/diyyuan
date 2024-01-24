@@ -100,15 +100,6 @@
       "searchable": 1
     },
     {
-      "key": "Ikanbot",
-      "name": "Ikanbot",
-      "type": 3,
-      "api": "csp_Ikanbot",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "直播",
       "name": "直播",
       "type": 3,
