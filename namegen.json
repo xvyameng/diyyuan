@@ -64,7 +64,7 @@
 	{"name":"VIP14","type":0,"url":"http://119.91.123.253:2345/Api/yun.php?url="}
 			
 	 ],
-"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","migu","alivc","sohu","bilibili","renrenmi"],
+"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","migu","alivc","1905","sohu","bilibili","renrenmi"],
 "rules":[
 	{"host":"www.iesdouyin.com","rule":["playwm/?video_id="]},
 	{"host":"www.ysgc.vip","rule":["getm3u8?url=http"]},
