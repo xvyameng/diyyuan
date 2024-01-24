@@ -6,6 +6,8 @@
 {"key": "厂长","name": "厂长","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/cz.js"},
 {"key": "农民","name": "农民","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/mn.js"},
 {"key": "视觉","name": "视觉","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/xsj.js"},
+{"key": "ng","name": "ng","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ng.js"},
+{"key": "ng1","name": "ng1","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ng1.js"},
     {
       "key": "直播",
       "name": "直播",
