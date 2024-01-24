@@ -3,16 +3,9 @@
 	"spider":"./namegen.jar",
 	"warningText":"接口软件永远免费<无云盘接口>",
 	"sites":[
-    {
-      "key": "csp_Kunyu77",
-      "name": "👒酷云七七",
-      "type": 3,
-      "api": "csp_Kunyu77",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-
+{"key": "厂长","name": "厂长","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/cz.js"},
+{"key": "农民","name": "农民","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/mn.js"},
+{"key": "视觉","name": "视觉","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/xsj.js"},
     {
       "key": "直播",
       "name": "直播",
