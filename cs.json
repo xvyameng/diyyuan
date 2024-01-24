@@ -7,7 +7,7 @@
 {"key": "农民","name": "农民","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/mn.js"},
 {"key": "视觉","name": "视觉","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/xsj.js"},
 {"key": "南瓜","name": "南瓜","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ng.js"},
-{"key": "ng1","name": "ng1","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ng1.js"},
+{"key": "腾讯","name": "腾讯","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/tx.js"},
     {
       "key": "直播",
       "name": "直播",
@@ -23,7 +23,7 @@
 		"parses":[
 	{"name":"聚合","type":3,"url":"Web"},
 
-			{"name":"VIP1","type":0,"url":"https://jx.xmflv.com/?url="},
+		{"name":"VIP21","type":0,"url":"http://xiutan.shiyifacai.com/json/qingfeng.php?url="}	{"name":"VIP1","type":0,"url":"https://jx.xmflv.com/?url="},
 			{"name":"VIP2","type":0,"url":"https://jx.xyflv.cc/?url="},
 			{"name":"VIP3","type":0,"url":"https://www.playm3u8.cn/jiexi.php?url="},
 			{"name":"VIP4","type":0,"url":"https://www.ckplayer.vip/jiexi/?url="},
