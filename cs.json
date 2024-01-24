@@ -91,15 +91,6 @@
       "filterable": 1
     },
     {
-      "key": "360影视",
-      "name": "360影视",
-      "type": 3,
-      "api": "csp_SP360",
-      "filterable": 1,
-      "quickSearch": 1,
-      "searchable": 1
-    },
-    {
       "key": "直播",
       "name": "直播",
       "type": 3,
