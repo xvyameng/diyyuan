@@ -1,15 +1,7 @@
 {
 	"spider":"./namegen.jar",
 	"sites":[
-    {
-      "key": "77",
-      "name": "77",
-      "type": 3,
-      "api": "csp_Kunyu77",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+
 		{
 			"key": "体育赛事",
 			"name": "体育赛事",
@@ -41,6 +33,14 @@
 			"playerType": "2",
 			"api": "./lib/drpy2.min.js",
 			"ext": "./js/77.js"
+		}, 
+				{
+			"key": "先生",
+			"name": "先生",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/xs.js"
 		}, 
     {
       "key": "荐片",
