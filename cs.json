@@ -26,7 +26,14 @@
 			"api": "./lib/drpy2.min.js",
 			"ext": "./js/wf.js"
 		}, 
-		
+		{
+			"key": "机器人",
+			"name": "机器人",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/ik.js"
+		}, 
     {
       "key": "荐片",
       "name": "荐片",
