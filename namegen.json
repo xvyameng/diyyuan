@@ -43,7 +43,6 @@
 	],
 "parses":[
 	{"name":"聚合","type":3,"url":"Web"},
-	{"name":"VIP","type":0,"url":"http://jx.meowtv.cn/?url="},
 	{"name":"VIP1","type":0,"url":"https://jx.xmflv.com/?url="},
 	{"name":"VIP2","type":0,"url":"https://jx.xyflv.cc/?url="},
 	{"name":"VIP3","type":0,"url":"https://www.playm3u8.cn/jiexi.php?url="},
