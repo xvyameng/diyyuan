@@ -22,6 +22,10 @@
 {"key": "机器人","name": "机器人","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ik.js"}, 
 {"key": "77","name": "77","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/77.js"}, 
 {"key": "先生","name": "先生","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/xs.js"},
+{"key": "厂长","name": "厂长","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/cz.js"},
+{"key": "农民","name": "农民","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/mn.js"},
+{"key": "视觉","name": "视觉","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/xsj.js"},
+{"key": "南瓜","name": "南瓜","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ng.js"},
 {"key": "荐片","name": "荐片","type": 3,"api": "csp_JianPian","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "Mp4","name": "Mp4","type": 3,"api": "csp_Mp4Mov","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "6V","name": "6V","type": 3,"api": "csp_New6v","searchable": 1,"quickSearch": 1,"filterable": 1},
@@ -62,8 +66,7 @@
 	{"name":"VIP17","type":0,"url":"https://43.240.74.102:4433/?url="},
 	{"name":"VIP18","type":0,"url":"https://jx.yangtu.top/?url="},
 	{"name":"VIP19","type":0,"url":"https://bd.jx.cn/?url="},
-	{"name":"VIP20","type":0,"url":"http://119.91.123.253:2345/Api/yun.php?url="},
-	{"name":"VIP21","type":0,"url":"http://xiutan.shiyifacai.com/json/qingfeng.php?url="}
+	{"name":"VIP20","type":0,"url":"http://119.91.123.253:2345/Api/yun.php?url="}
 			
 	 ],
 "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","renrenmi"],
