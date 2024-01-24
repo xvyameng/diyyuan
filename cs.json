@@ -38,7 +38,7 @@
 		"parses":[
 	{"name":"聚合","type":3,"url":"Web"},
 
-		{"name":"VIP21","type":0,"url":"http://xiutan.shiyifacai.com/json/qingfeng.php?url="}	{"name":"VIP1","type":0,"url":"https://jx.xmflv.com/?url="},
+{"name":"VIP1","type":0,"url":"https://jx.xmflv.com/?url="},
 			{"name":"VIP2","type":0,"url":"https://jx.xyflv.cc/?url="},
 			{"name":"VIP3","type":0,"url":"https://www.playm3u8.cn/jiexi.php?url="},
 			{"name":"VIP4","type":0,"url":"https://www.ckplayer.vip/jiexi/?url="},
