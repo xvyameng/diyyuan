@@ -46,7 +46,8 @@
 {"name": "live","type": 0,"url": "./namegenlives.txt"}
 	],
 "parses":[
-
+        {"name":"解析聚合","type":3,"url":"Demo"},
+        {"name":"Web聚合","type":3,"url":"Web"},
 	{"name":"VIP1","type":0,"url":"https://jx.xmflv.com/?url="},
 	{"name":"VIP2","type":0,"url":"https://jx.xyflv.cc/?url="},
 	{"name":"VIP3","type":0,"url":"https://43.240.74.102:4433/?url="},
