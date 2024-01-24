@@ -3,10 +3,25 @@
 	"spider":"./namegen.jar",
 	"warningText":"接口软件永远免费<无云盘接口>",
 	"sites":[
-{"key": "厂长","name": "厂长","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/cz.js"},
-{"key": "农民","name": "农民","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/mn.js"},
-{"key": "视觉","name": "视觉","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/xsj.js"},
-{"key": "南瓜","name": "南瓜","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ng.js"},
+   {
+      "key": "南瓜",
+      "name": "南瓜┃App",
+      "type": 3,
+      "api": "csp_NanGua",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": 2,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "天天",
+      "name": "天天┃App",
+      "type": 3,
+      "api": "csp_TTian",
+      "playerType": 2,
+      "ext": "http://op.ysdqjs.cn"
+    },
 {"key": "腾讯","name": "腾讯","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/tx.js"},
     {
       "key": "直播",
