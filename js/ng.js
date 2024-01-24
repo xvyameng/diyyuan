@@ -50,7 +50,7 @@ var rule = {
                 if (jData.code == 1) {
                     return jData.data.url
                 } else {
-                    return 'https://43.240.74.102:4433/?url=' + url.split('=')[1]
+                    return 'https://jx.xmflv.com/?url=' + url.split('=')[1]
                 }
             }
             if (/,/.test(input)) {
