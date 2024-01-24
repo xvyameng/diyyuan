@@ -65,9 +65,18 @@
       "filterable": 1,
       "quickSearch": 1,
       "searchable": 1
+    },
+    {
+      "key": "Ikanbot",
+      "name": "Ikanbot",
+      "type": 3,
+      "api": "csp_Ikanbot",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     }
-			
-		],
+	
+	],
 		"parses":[
 			{"name":"VIP","type":3,"url":"Web"},
 			{"name":"VIP1","type":0,"url":"https://jx.xmflv.com/?url="},
