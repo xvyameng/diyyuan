@@ -1,7 +1,16 @@
 {
 	"spider":"./namegen.jar",
 	"sites":[
-
+    {
+      "key": "荐片",
+      "name": "荐片",
+      "type": 3,
+      "api": "csp_JianPian",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
     {
       "key": "Mp4",
       "name": "Mp4",
