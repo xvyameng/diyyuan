@@ -18,6 +18,15 @@
 			"api": "./lib/drpy2.min.js",
 			"ext": "./js/kq.js"
 		}, 
+		{
+			"key": "网飞",
+			"name": "网飞",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/wf.js"
+		}, 
+		
     {
       "key": "荐片",
       "name": "荐片",
