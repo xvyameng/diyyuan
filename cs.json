@@ -34,6 +34,14 @@
 			"api": "./lib/drpy2.min.js",
 			"ext": "./js/ik.js"
 		}, 
+		{
+			"key": "77",
+			"name": "77",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/77.js"
+		}, 
     {
       "key": "荐片",
       "name": "荐片",
