@@ -10,7 +10,7 @@
 "spider":"./namegen.jar",
 "warningText":"接口软件免费(无网盘接口)",
 "sites":[	
-
+{"key":"南瓜","name":"南瓜","type":3,"api":"csp_Nangua","filterable":1,"quickSearch":1,"searchable":1},
 {"key": "豆瓣","name": "豆瓣","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/douban.js"},
 {"key": "爱奇艺","name": "爱奇艺","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/aqy.js"}, 
 {"key": "优酷","name": "优酷","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/yk.js"},
