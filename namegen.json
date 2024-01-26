@@ -12,10 +12,6 @@
 "sites":[	
 
 {"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_Douban","filterable":1,"quickSearch":1,"searchable":1},
-{"key":"南瓜","name":"南瓜","type":3,"api":"csp_NanGua","filterable":1,"quickSearch":1,"searchable":1},
-{"key":"快看","name":"快看","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"天天","name":"天天","type":3,"api":"csp_TTian","filterable":1,"quickSearch":1,"searchable":1,"ext": "http://op.ysdqjs.cn"},
-{"key":"一起看","name":"一起看","type":3,"api":"csp_YQKan","filterable":1,"quickSearch":1,"searchable":1},
 {"key": "爱奇艺","name": "爱奇艺","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/aqy.js"}, 
 {"key": "优酷","name": "优酷","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/yk.js"},
 {"key": "腾讯","name": "腾讯","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/tx.js"},
@@ -26,6 +22,10 @@
 {"key": "网飞","name": "网飞","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/wf.js"}, 
 {"key":"机器人","name": "机器人","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key":"360","name":"360","type":3,"api":"csp_SP360","filterable":1,"quickSearch":1,"searchable":1},
+{"key":"南瓜","name":"南瓜","type":3,"api":"csp_NanGua","filterable":1,"quickSearch":1,"searchable":1},
+{"key":"快看","name":"快看","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"天天","name":"天天","type":3,"api":"csp_TTian","filterable":1,"quickSearch":1,"searchable":1,"ext": "http://op.ysdqjs.cn"},
+{"key":"一起看","name":"一起看","type":3,"api":"csp_YQKan","filterable":1,"quickSearch":1,"searchable":1},
 {"key": "荐片","name": "荐片","type": 3,"api": "csp_JianPian","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "Mp4","name": "Mp4","type": 3,"api": "csp_Mp4Mov","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "6V","name": "6V","type": 3,"api": "csp_New6v","searchable": 1,"quickSearch": 1,"filterable": 1},
