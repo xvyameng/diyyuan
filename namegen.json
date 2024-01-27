@@ -30,7 +30,7 @@
 {"key": "SeedHub","name": "SeedHub","type": 3,"api": "csp_SeedHub","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "酷吧","name": "酷吧","type": 3,"api": "csp_Kuba","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "迅雷","name": "迅雷","type": 3,"api": "csp_Xunlei","searchable": 1,"quickSearch": 1,"filterable": 1},
-{"key": "球赛","name":"球赛","type":3,"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,"ext":"./lib/kq.json"},
+{"key": "球赛","name":"球赛","type":3,"api":"csp_XYQHiker","searchable":0,"quickSearch":0,"filterable":0,"ext":"./lib/kq.json"},
 {"key":"四九","name":"四九","type":1,"api":"https://49zyw.com/api.php/provide/vod/","searchable":1,"changeable":1},
 {"key":"小胡","name":"小胡","type":1,"api":"http://c.小胡.icu/api.php/provide/vod","searchable":1,"changeable":1},
 {"key":"乐视","name":"乐视","type":1,"api":"https://leshizyapi.com/api.php/provide/vod","searchable":1,"changeable":1},
