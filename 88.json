@@ -15,7 +15,7 @@
 
 {"key": "优酷","name": "优酷","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/yk.js"},
 
-
+{"key": "3","name": "3","type": 1,"api": "https://netflixdog.club/api.php/app/","searchable": 1,"changeable": 1},
 {"key": "4","name": "4","type": 1,"api": "https://ttsp.live/api.php/app/","searchable": 1,"changeable": 1},
 {"key": "非凡","name": "非凡","type": 1,"api": "http://cj.ffzyapi.com/api.php/provide/vod/","searchable": 1,"changeable": 1}
         ],
