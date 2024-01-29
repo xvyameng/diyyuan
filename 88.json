@@ -14,7 +14,7 @@
 
 
 {"key": "优酷","name": "优酷","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/yk.js"},
-
+"key": "yqktv","name": "猫丨一起看","type": 3,"api": "./yqk.js"},
 {"key": "1","name": "1","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ikanbot.js"},
 {"key": "2","name": "2","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ng.js"},
 {"key": "3","name": "3","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/yqk.js"},	
