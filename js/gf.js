@@ -2,7 +2,7 @@
 
 var rule = {
     title:'干饭影视',
-    host:'https://gfvod.com/',
+    host:'https://gfys.top',
     hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src=jsp.pdfh(html,"li:eq(0)&&a:eq(0)&&Text");print(src);HOST=src',
     // url:'/vodshow/fyclass--------fypage---.html',
     url:'/vodshow/fyclassfyfilter.html',
