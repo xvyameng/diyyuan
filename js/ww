@@ -1,7 +1,7 @@
        var rule={
             title: '奈飞中文',
             host: 'https://www.naifei.art/',
-            url: '/vodshow/id/fyclass/page/fypage.html',
+            url: '/vodtype/fyclass',
             searchUrl: '/search/**----------fypage---.html',
             searchable: 2,//是否启用全局搜索,
             quickSearch: 0,//是否启用快速搜索,
