@@ -4,7 +4,7 @@ var rule = {
     title:'影渣渣',
     模板:'mxpro',
     host:'https://www.yingzhazha.com',
-    url:'/vodshow/fyfilter.html',
+    url:'/vodtype/fyfilter.html',
     filterable:1,//是否启用分类筛选,
     filter_url:'{{fl.cateId}}-{{fl.area}}-{{fl.by}}-{{fl.class}}-{{fl.lang}}-{{fl.letter}}---fypage---{{fl.year}}',
     filter: {
