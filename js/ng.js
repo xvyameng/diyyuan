@@ -161,8 +161,6 @@ var rule = {
                     playFrom.append(key);
                     playList.append(playMap[key].join('#'))
                 });
-            let vod_play_from = playFrom.join('$$$');
-            let vod_play_url = playList.join('$$$');
             VOD['vod_play_from'] = vod_play_from;
             VOD['vod_play_url'] = vod_play_url
         } catch (e) {
