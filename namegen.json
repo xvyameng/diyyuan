@@ -22,6 +22,7 @@
 {"key": "南瓜","name": "南瓜","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ng.js"}, 
 {"key": "网飞","name": "网飞","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/wf.js"}, 
 {"key": "磁力熊","name": "磁力熊","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/clx.js"}, 
+{"key": "干饭","name": "干饭","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/gf.js"}, 
 {"key": "往往","name": "往往","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ww.js"}, 
 {"key":"机器人","name": "机器人","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key":"77","name":"77","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
