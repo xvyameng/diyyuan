@@ -32,7 +32,7 @@
 {"key": "SeedHub","name": "SeedHub","type": 3,"api": "csp_SeedHub","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "酷吧","name": "酷吧","type": 3,"api": "csp_KubaCL","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "迅雷","name": "迅雷","type": 3,"api": "csp_Xunlei8","searchable": 1,"quickSearch": 1,"filterable": 1},
-{"key":"小胡","name":"小胡","type":1,"api":"http://xh.xn--yetu07f.icu/api.php/provide/vod/","searchable":1,"changeable":1},
+{"key":"最大","name":"最大","type":1,"api":"https://api.zuidapi.com/api.php/provide/vod","searchable":1,"changeable":1},
 {"key":"优质","name":"优质","type":1,"api":"https://api.1080zyku.com/inc/apijson.php","searchable":1,"changeable":1},
 {"key":"奇虎","name":"奇虎","type":1,"api":"https://caiji.qhzyapi.com/api.php/provide/vod","searchable":1,"changeable":1},
 {"key":"乐视","name":"乐视","type":1,"api":"https://leshizyapi.com/api.php/provide/vod","searchable":1,"changeable":1},
