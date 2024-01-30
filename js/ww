@@ -2,7 +2,7 @@
             title: '奈飞中文',
             host: 'https://www.naifei.art/',
             url: '/vodtype/fyclass',
-            searchUrl: '/search/**----------fypage---.html',
+            searchUrl: '/vodsearch/page/fypage/wd/.html',
             searchable: 2,//是否启用全局搜索,
             quickSearch: 0,//是否启用快速搜索,
             filterable: 0,//是否启用分类筛选,
