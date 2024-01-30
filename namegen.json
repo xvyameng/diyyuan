@@ -11,7 +11,7 @@
 "warningText":"接口软件免费(无网盘接口)",
 "sites":[	
 
-{"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_Douban","filterable":1,"quickSearch":1,"searchable":1},
+{"key": "豆瓣","name": "豆瓣","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/db.js"},
 {"key": "南瓜","name": "南瓜","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ng.js"}, 
 {"key":"天天","name":"天天","type":3,"api":"csp_TTian","filterable":1,"quickSearch":1,"searchable":1,"ext": "http://op.ysdqjs.cn"},
 {"key":"一起看","name":"一起看","type":3,"api":"csp_YQKan","filterable":1,"quickSearch":1,"searchable":1},
