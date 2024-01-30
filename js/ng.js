@@ -46,12 +46,7 @@ var rule = {
             function getvideo(url) {
                 let jData = JSON.parse(request(url, {
                     headers: getHeaders(url)
-                }));
-                if (jData.code == 1) {
-                    return jData.data.url
-                } else {
-                    return 'http://119.91.123.253:2345/Api/yun.php?url=' + url.split('=')[1]
-                }
+                }))
             }
             if (/,/.test(input)) {
                 let mjurl = input.split(',')[1]
