@@ -8,6 +8,7 @@
 //本接口无公众号、无盈利、无引流、免费分享给小白使用，请勿轻信他人，谨防上当受骗。<请勿相信视频中广告>
 {
 "spider":"./namegen.jar",
+"wallpaper": "https://bing.img.run/rand.php",
 "warningText":"接口软件免费(无网盘接口)",
 "sites":[	
 
