@@ -1,6 +1,7 @@
        var rule={
             title: '奈飞中文',
             host: 'https://www.naifei.art/',
+            hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src = jsp.pdfh(html,"ul&&li&&a&&href");print(src);HOST=src.replace("/index.php","")',
             url: '/vodshow/id/fyclass/page/fypage.html',
             searchUrl: '/search/**----------fypage---.html',
             searchable: 2,//是否启用全局搜索,
