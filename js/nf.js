@@ -1,6 +1,6 @@
        var rule={
             title: '奈飞中文',
-            host: 'https://www.naifei.art/',
+            host: 'https://www.cs1369.com',
             hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src = jsp.pdfh(html,"ul&&li&&a&&href");print(src);HOST=src.replace("/index.php","")',
             url: '/vodshow/id/fyclass/fypage.html',
             searchUrl: '/search/**----------fypage---.html',
