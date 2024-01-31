@@ -29,6 +29,7 @@
 {"key": "先生","name": "先生","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/dyxs.js"}, 
 {"key": "555","name": "555","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/555.js"}, 
 {"key": "人人","name": "人人","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/rr.js"}, 
+{"key": "奈飞","name": "奈飞","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/nf.js"}, 
 {"key":"机器人","name": "机器人","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key":"77","name":"77","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"哔嘀","name":"哔嘀","type":3,"api":"csp_Bdys","searchable":1,"quickSearch":1,"filterable":1},
