@@ -23,7 +23,6 @@
 {"key": "荐片","name": "荐片","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/jp.js"}, 
 {"key": "南瓜","name": "南瓜","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ng.js"}, 
 {"key": "网飞","name": "网飞","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/wf.js"}, 
-{"key": "磁力熊","name": "磁力熊","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/clx.js"}, 
 {"key": "ikanbot","name": "ikanbot","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ik.js"},
 {"key":"最大","name":"最大","type":1,"api":"https://api.zuidapi.com/api.php/provide/vod","searchable":1,"changeable":1},
 {"key":"优质","name":"优质","type":1,"api":"https://api.1080zyku.com/inc/apijson.php","searchable":1,"changeable":1},
