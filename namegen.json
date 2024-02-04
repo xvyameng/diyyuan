@@ -9,7 +9,7 @@
 {
 "spider":"./namegen.jar",
 "wallpaper": "https://bing.img.run/rand.php",
-"warningText":"接口软件免费(无网盘接口)",
+"warningText":"接口软件免费(请勿相信视频中广告)",
 "sites":[	
 
 {"key": "豆瓣","name": "豆瓣","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/db.js"},
@@ -24,7 +24,7 @@
 {"key": "南瓜","name": "南瓜","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ng.js"}, 
 {"key": "网飞","name": "网飞","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/wf.js"}, 
 {"key": "ikanbot","name": "ikanbot","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ik.js"},
-{"key": "4K","name": "4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./lib/jh.json;http://127.0.0.1:9978/file/namegenliang/alitoken.txt"},
+{"key": "4K","name": "4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./lib/jh.json;http://127.0.0.1:9978/file/namegenliang/token.txt"},
 {"key":"最大","name":"最大","type":1,"api":"https://api.zuidapi.com/api.php/provide/vod","searchable":1,"changeable":1},
 {"key":"优质","name":"优质","type":1,"api":"https://api.1080zyku.com/inc/apijson.php","searchable":1,"changeable":1},
 {"key":"奇虎","name":"奇虎","type":1,"api":"https://caiji.qhzyapi.com/api.php/provide/vod","searchable":1,"changeable":1},
