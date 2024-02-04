@@ -7,24 +7,24 @@
 //本管理者保留随时更改或补充此免责声明的权利。一旦使用、复制、转载、发布、修改了本文内容，则视为您已接受此免责声明。否则后果自负。
 //本接口无公众号、无盈利、无引流、免费分享给小白使用，请勿轻信他人，谨防上当受骗。<请勿相信视频中广告>
 {
-"spider":"./namegen.jar",
+
 "wallpaper": "https://bing.img.run/rand.php",
 "warningText":"接口软件免费(请勿相信视频中广告)",
 "sites":[	
 
-{"key": "豆瓣","name": "豆瓣","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/db.js"},
-{"key": "爱奇艺","name": "爱奇艺","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/aqy.js"}, 
-{"key": "优酷","name": "优酷","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/yk.js"},
-{"key": "腾讯","name": "腾讯","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/tx.js"},
-{"key": "360","name": "360","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/360.js"},
-{"key": "芒果","name": "芒果","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/mgtv.js"}, 
-{"key": "搜狗","name": "搜狗","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/sg.js"},  
-{"key": "bilibili","name": "bilibili","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/bili.js"},
-{"key": "荐片","name": "荐片","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/jp.js"}, 
-{"key": "南瓜","name": "南瓜","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ng.js"}, 
-{"key": "网飞","name": "网飞","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/wf.js"}, 
-{"key": "ikanbot","name": "ikanbot","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ik.js"},
-{"key": "4K","name": "4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./lib/jh.json;http://127.0.0.1:9978/file/tv/token.txt"},
+{"key": "豆瓣","name": "豆瓣","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/db.js","jar": "./js/jx.jar"},
+{"key": "爱奇艺","name": "爱奇艺","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/aqy.js","jar": "./js/jx.jar"}, 
+{"key": "优酷","name": "优酷","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/yk.js","jar": "./js/jx.jar"},
+{"key": "腾讯","name": "腾讯","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/tx.js","jar": "./js/jx.jar"},
+{"key": "360","name": "360","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/360.js","jar": "./js/jx.jar"},
+{"key": "芒果","name": "芒果","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/mgtv.js","jar": "./js/jx.jar"}, 
+{"key": "搜狗","name": "搜狗","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/sg.js","jar": "./js/jx.jar"},  
+{"key": "bilibili","name": "bilibili","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/bili.js","jar": "./js/jx.jar"},
+{"key": "荐片","name": "荐片","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/jp.js","jar": "./js/jx.jar"}, 
+{"key": "南瓜","name": "南瓜","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ng.js","jar": "./js/jx.jar"}, 
+{"key": "网飞","name": "网飞","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/wf.js","jar": "./js/jx.jar"}, 
+{"key": "ikanbot","name": "ikanbot","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/ik.js","jar": "./js/jx.jar"},
+{"key": "4K","name": "4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./lib/jh.json;http://127.0.0.1:9978/file/tv/token.txt","jar": "./js/4k.jar"},
 {"key":"最大","name":"最大","type":1,"api":"https://api.zuidapi.com/api.php/provide/vod","searchable":1,"changeable":1},
 {"key":"优质","name":"优质","type":1,"api":"https://api.1080zyku.com/inc/apijson.php","searchable":1,"changeable":1},
 {"key":"奇虎","name":"奇虎","type":1,"api":"https://caiji.qhzyapi.com/api.php/provide/vod","searchable":1,"changeable":1},
