@@ -13,7 +13,7 @@
 "sites":[	
 
 {"key": "豆瓣","name": "豆瓣","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/db.js"},
-{"key": "4K","name": "4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./lib/jh.json;http://127.0.0.1:9978/file/tv/token.txt","jar": "./lib/4k.jar"},
+{"key": "4K","name": "4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./lib/jh.json;http://127.0.0.1:9978/file/tv/token.txt","jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/lib/4k.jar"},
 {"key": "爱奇艺","name": "爱奇艺","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/aqy.js"}, 
 {"key": "优酷","name": "优酷","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/yk.js"},
 {"key": "腾讯","name": "腾讯","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/tx.js"},
