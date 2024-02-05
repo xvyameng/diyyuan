@@ -7,13 +7,13 @@
 //本管理者保留随时更改或补充此免责声明的权利。一旦使用、复制、转载、发布、修改了本文内容，则视为您已接受此免责声明。否则后果自负。
 //本接口无公众号、无盈利、无引流、免费分享给小白使用，请勿轻信他人，谨防上当受骗。<请勿相信视频中广告>
 {
-"spider": "./namegen.jar;md5;43485bc25714193e43f131def06329d9",
+"spider": "./namegen.jar",
 "wallpaper": "https://bing.img.run/rand.php",
 "warningText":"接口软件免费(请勿相信视频中广告)",
 "sites":[	
 
 {"key": "豆瓣","name": "豆瓣","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/db.js"},
-{"key": "4K","name": "4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./lib/jh.json;http://127.0.0.1:9978/file/tv/token.txt","jar": "./lib/4k.jar"},
+{"key": "4K","name": "4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./lib/jh.json;http://127.0.0.1:9978/file/tv/token.txt"},
 {"key": "爱奇艺","name": "爱奇艺","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/aqy.js"}, 
 {"key": "优酷","name": "优酷","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/yk.js"},
 {"key": "腾讯","name": "腾讯","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/tx.js"},
@@ -38,12 +38,10 @@
 {"name": "live","type": 0,"url": "./namegenlives.txt"}
 	],
 "parses":[
-	{"name":"解析聚合","type":3,"url":"Demo"},
-        {"name":"Web聚合","type":3,"url":"Web"},
-	{"name":"VIP","type":0,"url":"http://119.91.123.253:2345/Api/yun.php?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
-	{"name":"VIP1","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
-	{"name":"VIP2","type":0,"url":"https://jx.xyflv.cc/?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
-	{"name":"VIP3","type":0,"url":"https://43.240.74.102:4433/?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
+        {"name":"VIP","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
+	{"name":"VIP1","type":0,"url":"https://43.240.74.102:4433/?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
+	{"name":"VIP2","type":0,"url":"http://119.91.123.253:2345/Api/yun.php?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
+	{"name":"VIP3","type":0,"url":"https://jx.xyflv.cc/?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
 	{"name":"VIP4","type":0,"url":"https://jx.jsonplayer.com/player/?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
 	{"name":"VIP5","type":0,"url":"https://jx.playerjy.com/?ads=0&url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
 	{"name":"VIP6","type":0,"url":"https://player.mrgaocloud.com/player/?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
