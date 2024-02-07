@@ -6,13 +6,13 @@
 </div>
 
 # 配置地址(就是GitHub的地址，加了个加速服务。)
-
+```
   * https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/namegen.json
   * https://gh.con.sh/https://raw.githubusercontent.com/namegenliang/dy/main/namegen.json
   * https://ghproxy.net/https://raw.githubusercontent.com/namegenliang/dy/main/namegen.json
   * https://hub.gitmirror.com/https://raw.githubusercontent.com/namegenliang/dy/main/namegen.json
   * https://github.moeyy.xyz/https://raw.githubusercontent.com/namegenliang/dy/main/namegen.json
-
+```
 所有资源均来自于网络各路大神无私分享.如有侵权.请联系删除。<所有内容仅供测试学习使用，请勿用于违法用途>。
 
 以下资源不能保证内容的合法性、准确性、完整性和有效性，请根据情况自行判断。
