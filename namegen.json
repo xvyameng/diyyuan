@@ -37,7 +37,7 @@
 {"key": "非凡","name": "非凡","type": 1,"api": "http://cj.ffzyapi.com/api.php/provide/vod","searchable": 1,"changeable": 1}
         ],
 "lives":[
-{"name": "live","type": 0,"url": "./namegenlives.txt"}
+{"name": "live","type": 0,"url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/namegenlives.txtt"}
 	],
 "parses":[
         {"name":"播放不了点后面的VIP","type":0,"url":"https://jx.xmflv.com/?url="},
