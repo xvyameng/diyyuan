@@ -40,9 +40,7 @@
 {"name": "live","type": 0,"url": "./namegenlives.txt"}
 	],
 "parses":[
-	{"name":"解析聚合","type":3,"url":"Demo"},
-	{"name":"Web聚合","type":3,"url":"Web"},
-        {"name":"VIP","type":0,"url":"https://jx.xmflv.com/?url="},
+        {"name":"播放不了点后面的VIP","type":0,"url":"https://jx.xmflv.com/?url="},
 	{"name":"VIP1","type":0,"url":"https://43.240.74.102:4433/?url="},
 	{"name":"VIP2","type":0,"url":"http://119.91.123.253:2345/Api/yun.php?url="},
 	{"name":"VIP3","type":1,"url":"https://jx.xyflv.cc/?url="},
