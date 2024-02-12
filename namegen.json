@@ -16,7 +16,6 @@
 {"key":"荐片","name":"荐片","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"Xb6v","name":"新6V","type":3,"api":"csp_Xb6v","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"看球","name":"看球","type":3,"api":"csp_Kanqiu","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"FirstAid","name":"FirstAid","type":3,"api":"csp_FirstAid","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"影视","name":"影视","type":3,"api":"csp_NongMin","searchable":1,"quickSearch":1,"filterable":1},	
 {"key":"SP360","name":"SP360","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1},
 {"key": "4K","name": "4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./lib/jh.json;http://127.0.0.1:9978/file/tv/token.txt","jar": "./lib/4k.jar"},
