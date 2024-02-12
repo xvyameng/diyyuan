@@ -17,7 +17,7 @@
 {"key":"Xb6v","name":"新6V","type":3,"api":"csp_Xb6v","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"看球","name":"看球","type":3,"api":"csp_Kanqiu","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"FirstAid","name":"FirstAid","type":3,"api":"csp_FirstAid","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"影视","name":"影视","type":3,"api":"csp_nongmin","searchable":1,"quickSearch":1,"filterable":1},	
+{"key":"影视","name":"影视","type":3,"api":"csp_NongMin","searchable":1,"quickSearch":1,"filterable":1},	
 {"key":"SP360","name":"SP360","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1},
 {"key": "4K","name": "4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./lib/jh.json;http://127.0.0.1:9978/file/tv/token.txt","jar": "./lib/4k.jar"},
 {"key": "爱奇艺","name": "爱奇艺","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/aqy.js"}, 
@@ -43,10 +43,6 @@
 {"name": "live","type": 0,"url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/namegenlives.txt"}
 	],
 "parses":[
-        //{"name":"Json并发","type":2,"url":"Parallel"},
-        //{"name":"Json轮询","type":2,"url":"Sequence"},
-        {"name":"解析聚合","type":3,"url":"Demo"},
-        {"name":"Web聚合","type":3,"url":"Web"},
         {"name":"播放不了点后面的VIP","type":0,"url":"https://jx.xmflv.com/?url="},
 	{"name":"VIP1","type":0,"url":"https://43.240.74.102:4433/?url="},
 	{"name":"VIP2","type":0,"url":"http://119.91.123.253:2345/Api/yun.php?url="},
