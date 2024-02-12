@@ -18,7 +18,7 @@
 {"key":"看球","name":"看球","type":3,"api":"csp_Kanqiu","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"FirstAid","name":"FirstAid","type":3,"api":"csp_FirstAid","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"影视","name":"影视","type":3,"api":"csp_nongming","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"南瓜","name":"南瓜","type":3,"api":"csp_ng","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"南瓜1","name":"南瓜1","type":3,"api":"csp_ng","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"Auete","name":"Auete","type":3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"厂长","name":"厂长","type":3,"api":"csp_Czsapp","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"低端","name":"低端","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":1},
