@@ -12,15 +12,16 @@
 "warningText":"接口软件免费(请勿相信视频中广告)",
 "sites":[
 {"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_Douban","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"酷狗","name":"酷狗","type":3,"api":"csp_Kugou","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"荐片","name":"荐片","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"Xb6v","name":"新6V","type":3,"api":"csp_Xb6v","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"看球","name":"看球","type":3,"api":"csp_Kanqiu","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"影视","name":"影视","type":3,"api":"csp_NongMin","searchable":1,"quickSearch":1,"filterable":1},	
 {"key":"IQIYI","name":"IQIYI","type":3,"api":"csp_IQIYI","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"MGTV","name":"MGTV","type":3,"api":"csp_MGTV","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"SP360","name":"SP360","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1},
-{"key": "4K","name": "4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./lib/jh.json;http://127.0.0.1:9978/file/tv/token.txt","jar": "./lib/4k.jar"},
+{"key":"看球","name":"看球","type":3,"api":"csp_Kanqiu","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"酷狗","name":"酷狗","type":3,"api":"csp_Kugou","searchable":1,"quickSearch":1,"filterable":1},
+{"key": "直播","name": "直播","type": 3,"api": "csp_JustLive","searchable": 1,"quickSearch": 1,"changeable": 0},
+{"key": "急救","name": "急救","type": 3,"api": "csp_FirstAid","searchable": 1,"quickSearch": 1,"changeable": 0},
 {"key": "爱奇艺","name": "爱奇艺","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/aqy.js"}, 
 {"key": "优酷","name": "优酷","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/yk.js"},
 {"key": "腾讯","name": "腾讯","type": 3,"playerType": "2","api": "./lib/drpy2.min.js","ext": "./js/tx.js"},
@@ -38,14 +39,15 @@
 {"key": "暴风","name": "暴风","type": 1,"api": "https://bfzyapi.com/api.php/provide/vod","searchable": 1,"changeable": 1},
 {"key": "索尼","name": "索尼 ","type": 1,"api": "https://suoniapi.com/api.php/provide/vod","searchable": 1,"changeable": 1},
 {"key": "量子","name": "量子","type": 1,"api": "https://cj.lziapi.com/api.php/provide/vod","searchable": 1,"changeable": 1},
-{"key": "非凡","name": "非凡","type": 1,"api": "http://cj.ffzyapi.com/api.php/provide/vod","searchable": 1,"changeable": 1}
+{"key": "非凡","name": "非凡","type": 1,"api": "http://cj.ffzyapi.com/api.php/provide/vod","searchable": 1,"changeable": 1},
+{"key": "4K","name": "4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./lib/jh.json;http://127.0.0.1:9978/file/tv/token.txt","jar": "./lib/4k.jar"},
 {"key": "玩偶","name": "玩偶","type": 3,"api": "csp_Wogg","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "http://127.0.0.1:9978/file/tv/token.txt"},
 {"key": "盘搜","name": "盘搜","type": 3,"api": "csp_PanSearch","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "http://127.0.0.1:9978/file/tv/token.txt"},
 {"key": "Ali盘搜","name": "Ali盘搜","type": 3,"api": "csp_PanSou","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "http://127.0.0.1:9978/file/tv/token.txt"},
 {"key": "云搜","name": "云搜","type": 3,"api": "csp_UpYun","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "http://127.0.0.1:9978/file/tv/token.txt"},
 {"key": "小纸条","name": "小纸条","type": 3,"api": "csp_XiaoZhiTiao","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "http://127.0.0.1:9978/file/tv/token.txt"},
 {"key": "影视车","name": "影视车","type": 3,"api": "csp_Yingshiche","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "http://127.0.0.1:9978/file/tv/token.txt"},
-{"key": "易搜","name": "易搜","type": 3,"api": "csp_YiSo","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "http://127.0.0.1:9978/file/tv/token.txt"},
+{"key": "易搜","name": "易搜","type": 3,"api": "csp_YiSo","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "http://127.0.0.1:9978/file/tv/token.txt"}
         ],
 "lives":[
 {"name": "live","type": 0,"url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/namegenlives.txt"}
