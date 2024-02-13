@@ -41,7 +41,7 @@
 {"key": "急救","name": "急救","type": 3,"api": "csp_FirstAid","searchable": 1,"quickSearch": 1,"changeable": 0}
         ],
 "lives":[
-{"name": "live","type": 0,"url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/namegenliang/dy/main/namegenlives.txt"}
+{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9taXJyb3IuZ2hwcm94eS5jb20vaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL25hbWVnZW5saWFuZy9keS9tYWluL25hbWVnZW5saXZlcy50eHQ="]}]}
 	],
 "parses":[
         {"name":"播放不了点后面的VIP","type":0,"url":"https://jx.xmflv.com/?url="},
