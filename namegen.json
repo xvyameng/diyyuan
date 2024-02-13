@@ -12,7 +12,7 @@
 "warningText":"接口软件免费(请勿相信视频中广告)",
 "sites":[
 {"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_Douban","searchable":1,"quickSearch":1,"filterable":1},
-{"key": "4K","name": "4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./lib/jh.json;http://127.0.0.1:9978/file/tv/token.txt","jar": "./lib/4k.jar"}
+{"key": "4K","name": "4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./lib/jh.json;http://127.0.0.1:9978/file/tv/token.txt","jar": "./lib/4k.jar"},
 {"key":"荐片","name":"荐片","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"Xb6v","name":"新6V","type":3,"api":"csp_Xb6v","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"影视","name":"影视","type":3,"api":"csp_NongMin","searchable":1,"quickSearch":1,"filterable":1},	
