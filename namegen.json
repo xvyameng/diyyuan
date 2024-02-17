@@ -234,7 +234,7 @@
 			"key": "kuaikan",
 			"name": "kuaikan",
 			"type": 1,
-			"api": "https: //kuaikan-api.com/api.php/provide/vod",
+			"api": "https://kuaikan-api.com/api.php/provide/vod",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -242,7 +242,7 @@
 			"key": "最大",
 			"name": "最大",
 			"type": 1,
-			"api": "https: //api.zuidapi.com/api.php/provide/vod",
+			"api": "https://api.zuidapi.com/api.php/provide/vod",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -250,7 +250,7 @@
 			"key": "优质",
 			"name": "优质",
 			"type": 1,
-			"api": "https: //api.1080zyku.com/inc/apijson.php",
+			"api": "https://api.1080zyku.com/inc/apijson.php",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -258,7 +258,7 @@
 			"key": "奇虎",
 			"name": "奇虎",
 			"type": 1,
-			"api": "https: //caiji.qhzyapi.com/api.php/provide/vod",
+			"api": "https://caiji.qhzyapi.com/api.php/provide/vod",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -266,7 +266,7 @@
 			"key": "乐视",
 			"name": "乐视",
 			"type": 1,
-			"api": "https: //leshizyapi.com/api.php/provide/vod",
+			"api": "https://leshizyapi.com/api.php/provide/vod",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -274,7 +274,7 @@
 			"key": "暴风",
 			"name": "暴风",
 			"type": 1,
-			"api": "https: //bfzyapi.com/api.php/provide/vod",
+			"api": "https://bfzyapi.com/api.php/provide/vod",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -282,7 +282,7 @@
 			"key": "索尼",
 			"name": "索尼",
 			"type": 1,
-			"api": "https: //suoniapi.com/api.php/provide/vod",
+			"api": "https://suoniapi.com/api.php/provide/vod",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -290,7 +290,7 @@
 			"key": "量子",
 			"name": "量子",
 			"type": 1,
-			"api": "https: //cj.lziapi.com/api.php/provide/vod",
+			"api": "https://cj.lziapi.com/api.php/provide/vod",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -298,7 +298,7 @@
 			"key": "非凡",
 			"name": "非凡",
 			"type": 1,
-			"api": "http: //cj.ffzyapi.com/api.php/provide/vod",
+			"api": "http://cj.ffzyapi.com/api.php/provide/vod",
 			"searchable": 1,
 			"changeable": 1
 		},
