@@ -39,6 +39,36 @@
 			"ext": "./lib/jh.json;http://127.0.0.1:9978/file/tv/token.txt","jar": "./lib/4k.jar"
 		},
 		{
+			"key": "布蕾4k",
+			"name": "布蕾4k",
+			"type": 3,
+			"api": "csp_Buleitv",
+			"searchable": 1,
+			"filterable": 0,
+			"switchable": 0,
+			"jar": "./lib/4.jar"
+		},
+		{
+			"key": "追忆4k",
+			"name": "追忆4k",
+			"type": 3,
+			"api": "csp_Zhuiyitv",
+			"searchable": 1,
+			"filterable": 0,
+			"switchable": 0,
+			"jar": "./lib/4.jar"
+		},		
+		{
+			"key": "影探4K",
+			"name": "影探4K",
+			"type": 3,
+			"api": "csp_Yingtantv2",
+			"searchable": 1,
+			"filterable": 0,
+			"switchable": 0,
+			"jar": "./lib/4.jar"
+		},	
+		{
 			"key": "快看",
 			"name": "快看",
 			"type": 3,
