@@ -37,36 +37,6 @@
 			"filterable": 0,
 			"switchable": 0,
 			"ext": "./lib/jh.json;http://127.0.0.1:9978/file/tv/token.txt","jar": "./lib/4k.jar"
-		},
-		{
-			"key": "布蕾4k",
-			"name": "布蕾4k",
-			"type": 3,
-			"api": "csp_Buleitv",
-			"searchable": 1,
-			"filterable": 0,
-			"switchable": 0,
-			"jar": "./lib/4.jar"
-		},
-		{
-			"key": "追忆4k",
-			"name": "追忆4k",
-			"type": 3,
-			"api": "csp_Zhuiyitv",
-			"searchable": 1,
-			"filterable": 0,
-			"switchable": 0,
-			"jar": "./lib/4.jar"
-		},		
-		{
-			"key": "影探4K",
-			"name": "影探4K",
-			"type": 3,
-			"api": "csp_Yingtantv2",
-			"searchable": 1,
-			"filterable": 0,
-			"switchable": 0,
-			"jar": "./lib/4.jar"
 		},	
 		{
 			"key": "快看",
@@ -115,15 +85,6 @@
 			"ext": "https://www.voflix.me"
 		},
 		{
-			"key": "爱奇艺",
-			"name": "爱奇艺",
-			"type": 3,
-			"api": "csp_IQIYI",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
 			"key": "360影视",
 			"name": "360影视",
 			"type": 3,
@@ -133,13 +94,12 @@
 			"filterable": 1
 		},
 		{
-			"key": "MGTV",
-			"name": "MGTV",
+			"key": "爱奇艺",
+			"name": "爱奇艺",
 			"type": 3,
-			"api": "csp_MGTV",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/aqy.js"
 		},
 		{
 			"key": "优酷",
@@ -164,6 +124,14 @@
 			"playerType": "2",
 			"api": "./lib/drpy2.min.js",
 			"ext": "./js/sg.js"
+		},
+		{
+			"key": "MGTV",
+			"name": "MGTV",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./js/mgtv.js"
 		},
 		{
 			"key": "bili",
