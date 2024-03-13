@@ -1,9 +1,6 @@
 # FongMi影视、Tvbox、影视仓等壳子类软件配置文件，目前已经有的接口。
 
-# 如果项目有帮助到您，可以选择捐赠一些费用用于资源接口的后续版本维护，本项目长期维护
-<div align=center>
-<img src="https://d.kstore.space/download/7504/s.jpg" alt="CandyMuj" width="300" height="665" />
-</div>
+
 
 # 配置地址(就是GitHub的地址，加了个加速服务。)
 ```
