@@ -2,9 +2,10 @@
 
 
 
-# 配置地址(就是GitHub的地址，加了个加速服务。)
+# 配置地址
 ```
-  * https://gh-proxy.catvod.com/https://raw.githubusercontent.com/namegenliang/dy/main/namegen.json
+
+ https://gh-proxy.catvod.com/https://raw.githubusercontent.com/namegenliang/dy/main/namegen.json
 
 ```
 所有资源均来自于网络各路大神无私分享.如有侵权.请联系删除。<所有内容仅供测试学习使用，请勿用于违法用途>。
